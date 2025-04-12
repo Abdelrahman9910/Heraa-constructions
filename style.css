@@ -2716,7 +2716,7 @@ textarea {
     border-bottom-right-radius: 15px;
   }
   .project-slider {
-    height: 19vh;
+    height: 20vh;
 }
   .project-slide {
     min-width: 100%;
@@ -2733,7 +2733,7 @@ textarea {
     display: inline-block;
     background-size: 181px 12px;
     width: 80%;
-    left: 10%;
+    left: 8%;
   }
   .projects_head span {
     font-size: 1rem;
