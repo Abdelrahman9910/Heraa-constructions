@@ -1,0 +1,2725 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="./images/Group 1.svg" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Heraa Projects</title>
+  </head>
+  <body class="projects-body">
+    <header id="home" class="projects-header">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <nav class="side_navbar">
+          <button class="hamburger" onclick="toggleSideNav()">
+            &#9776;<span>Menu</span>
+          </button>
+          <div class="logo">
+            <img
+              src="./images/Group 1.svg"
+              alt="herra Logo"
+              loading="lazy"
+              title="Herra logo"
+            />
+          </div>
+          <div class="language-dropdown">
+            <img
+              loading="lazy"
+              src="./images/Vector.svg"
+              alt="Language Icon"
+              class="language-icon"
+              title="language-icon"
+            />
+            <button
+              class="language-button"
+              onclick="toggleLanguageDropdown()"
+              title="language-button"
+            >
+              Lang
+            </button>
+            <div class="dropdown-content" id="customLanguageDropdown">
+              <a href="./projects.html">English</a>
+              <a href="./project-ar.html">عربي</a>
+            </div>
+          </div>
+        </nav>
+        <div class="side-nav" id="sideNav">
+          <a
+            href="javascript:void(0)"
+            class="close-btn"
+            onclick="toggleSideNav()"
+            >&times;</a
+          >
+          <a href="./index.html#home">Home</a>
+          <a href="./index.html#Services">Services</a>
+          <a href="./index.html#about">About us</a>
+          <a href="./index.html#press">Press &amp; News</a>
+          <a href="./projects-index.html">Projects</a>
+          <a href="./carrers.html">Careers</a>
+          <a href="./index.html#contact-us">Contact Us</a>
+        </div>
+
+        <nav id="custom-nav">
+          <ul>
+            <li>
+              <a href="./index.html" target="_self" rel="noopener noreferrer"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="./index.html#Services"
+                class="nav_name"
+                target="_self"
+                rel="noopener noreferrer"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a
+                href="./index.html#about"
+                target="_self"
+                rel="noopener noreferrer"
+                >About Us</a
+              >
+            </li>
+            <li>
+              <a
+                href="./index.html#press"
+                target="_self"
+                rel="noopener noreferrer"
+                >Press &amp; News</a
+              >
+            </li>
+            <li>
+              <img
+                src="./images/Group 1.svg"
+                alt="heraa logo"
+                class="herra-logo"
+                loading="lazy"
+                title="herra-logo"
+              />
+            </li>
+            <li>
+              <a
+                href="./projects-index.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a href="./carrers.html" target="_blank" rel="noopener noreferrer"
+                >Careers</a
+              >
+            </li>
+            <li>
+              <a
+                href="./index.html#contact-us"
+                target="_self"
+                rel="noopener noreferrer"
+                >Contact Us</a
+              >
+            </li>
+            <li
+              class="project-nav-item project-dropdown project-lang_li lang_li"
+            >
+              <a
+                class="project-nav-link project-dropdown-toggle"
+                href="#"
+                id="project-languageDropdown"
+                role="button"
+                onclick="projectToggleLanguageDropdown()"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Language
+                <img
+                  src="./images/Vector.svg"
+                  alt="language-button"
+                  loading="lazy"
+                  title="language-button"
+                />
+              </a>
+              <div
+                class="project-dropdown-menu"
+                id="project-languageDropdownMenu"
+                aria-labelledby="project-languageDropdown"
+              >
+                <a class="project-dropdown-item" href="./projects.html"
+                  >English</a
+                >
+                <a class="project-dropdown-item" href="./project-ar.html"
+                  >عربي</a
+                >
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <span class="projects-text">Our Projects</span>
+    </header>
+    <div class="project-container">
+    <section class="project-sec1" id="fish">
+      <div class="projects_container">
+        <div class="projects_head">
+         
+          <span>Fish farms project in Kafr El-Sheikh</span>
+        </div>
+        <div class="project_content">
+          <div class="iframe-fallback" data-video-id="Afe9xoIXz2I">
+            <!-- Preview Image -->
+            <img
+              src="./images/fishfarm-1.jpg"
+              alt="Heraa constructions fish farm project"
+              class="video-thumbnail"
+              loading="lazy"
+            />
+            <!-- Play Button -->
+            <button class="play-button">&#9654;</button>
+            <!-- Lazy-Loaded Iframe (Hidden Initially) -->
+            <iframe
+              title="Fisheries project"
+              data-src="https://www.youtube.com/embed/ZpFHYjTAo-M?si=pZhMifNiMD9HMbGQ"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              loading="lazy"
+              class="lazy-iframe"
+            ></iframe>
+          </div>
+          <div class="content_child">
+            <span
+              >Establishing the largest fish farm in the Middle East with the
+              capacity <br />
+              to provide 70% of Egypt’s fish consumption.</span
+            >
+            <div>
+              <span class="Authority_desc">Assignment Authority</span>
+              <span class="clients">: Ministry of Defense</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Nature of work</span>
+              <span class="clients">: Construction</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Project duration</span>
+              <span class="clients">: 12 months</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Position</span>
+              <span class="clients">: Pipeline Kafr El-Sheikh</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Area</span>
+              <span class="clients">: 80000 square meters</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Slider 1 -->
+      <div class="project-slider" id="slider-1">
+        <div class="project-slides">
+          <div class="project-slide">
+            <img
+              src="./images/fishfarm-2.jpeg"
+              alt="Heraa constructions fish farm project"
+              loading="lazy"
+            />
+            <img
+              src="./images/fish-farm-3.jpeg"
+              alt="Heraa constructions fish farm project"
+              loading="lazy"
+            />
+            <img
+              src="./images/fishfarm-4.jpg"
+              alt="Heraa constructions fish farm project"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="project-sec1" id="gamal">
+      <div class="projects_container">
+        <div class="projects_head">
+          <!-- -->
+          <span>Museum of Leader Gamal Abdel Nasser</span>
+        </div>
+        <div class="project_content">
+          <div class="iframe-fallback" data-video-id="Afe9xoIXz2I">
+            <!-- Preview Image -->
+            <img
+              src="https://img.youtube.com/vi/Afe9xoIXz2I/maxresdefault.jpg"
+              alt="Heraa constructions Museum of Leader Gamal Abdel Nasser project"
+              class="video-thumbnail"
+              loading="lazy"
+            />
+            <!-- Play Button -->
+            <button class="play-button">&#9654;</button>
+            <!-- Lazy-Loaded Iframe (Hidden Initially) -->
+            <iframe
+              title="Fisheries project"
+              data-src="https://www.youtube.com/embed/Afe9xoIXz2I?autoplay=1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              loading="lazy"
+              class="lazy-iframe"
+            ></iframe>
+          </div>
+          <div class="content_child">
+            <span
+              >Restoration and development of the personal home of leader Gamal
+              <br />
+              Abdel Nasser to be a national museum that displays his personal
+              and political life through documentaries and exhibitions of his
+              possessions..</span
+            >
+            <div>
+              <span class="Authority_desc">Assignment Authority</span>
+              <span class="clients">: Ministry of Culture</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Nature of work</span>
+              <span class="clients">: development and renewal</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Project duration</span>
+              <span class="clients">: 34 months</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Position</span>
+              <span class="clients">: Heliopolis, Cairo</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Area</span>
+              <span class="clients">: 12,000 square meters</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Slider 1 -->
+      <div class="project-slider" id="slider-2">
+        <div class="project-slides">
+          <div class="project-slide">
+            <img
+              src="./images/gamal abd el nasser musem1.jpg"
+              alt="Heraa constructions Museum of Leader Gamal Abdel Nasser project"
+              loading="lazy"
+            />
+            <img
+              src="./images/gamal abd el nasser musem2.jpg"
+              alt="Heraa constructions Museum of Leader Gamal Abdel Nasser project"
+              loading="lazy"
+            />
+            <img
+              src="./images/gamal abd el nasser musem3.jpg"
+              alt="Heraa constructions Museum of Leader Gamal Abdel Nasser project"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="project-sec1" id="book-center">
+      <div class="projects_container">
+        <div class="projects_head">
+         
+          <span>International Book Centre</span>
+
+        </div>
+        <div class="project_content">
+          <div class="iframe-fallback" data-video-id="Afe9xoIXz2I">
+            <!-- Preview Image -->
+            <img
+              src="./images/book-center (1).jpg"
+              alt="Heraa constructions International Book Centre project"
+              class="video-thumbnail"
+              loading="lazy"
+            />
+            <!-- Play Button -->
+            <button class="play-button">&#9654;</button>
+            <!-- Lazy-Loaded Iframe (Hidden Initially) -->
+            <iframe
+              title="Fisheries project"
+              data-src="https://www.youtube.com/embed/0Oz4Rf1FOro?si=rxbgZyhQez7CptaJ"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              loading="lazy"
+              class="lazy-iframe"
+            ></iframe>
+          </div>
+          <div class="content_child">
+            <span
+              >We have developed the International Book Center in terms of poll
+              halls for adults, poll halls for children, book display halls, and
+              sales outlets.</span
+            >
+            <div>
+              <span class="Authority_desc">Assignment Authority</span>
+              <span class="clients">: Ministry of Culture</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Nature of work</span>
+              <span class="clients">: Development and renewal</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Project duration</span>
+              <span class="clients">: 12 months</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Position</span>
+              <span class="clients">: Wast albalad, Cairo</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Area</span>
+              <span class="clients">: 900 square meters</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Slider 1 -->
+      <div class="project-slider" id="slider-3">
+        <div class="project-slides">
+          <div class="project-slide">
+            <img
+              src="./images/book-center (2).jpeg"
+              alt="Heraa constructions International Book Centre project"
+              loading="lazy"
+            />
+            <img
+              src="./images/book-center (3).jpeg"
+              alt="Heraa constructions International Book Centre project"
+              loading="lazy"
+            />
+            <img
+              src="./images/book-center (4).jpeg"
+              alt="Heraa constructions International Book Centre project"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      
+      </div>
+    </section>
+    <section class="project-sec1" id="Mayo">
+      <div class="projects_container">
+        <div class="projects_head">
+         
+          <span>May 15 Arts Complex</span>
+
+        </div>
+        <div class="project_content">
+          <div class="iframe-fallback" data-video-id="Afe9xoIXz2I">
+            <!-- Preview Image -->
+            <img
+              src="./images/arts-gallery (6).jpeg"
+              alt="Heraa constructions May 15 Arts Complex project"
+              class="video-thumbnail"
+              loading="lazy"
+            />
+            <!-- Play Button -->
+            <!-- <button class="play-button">&#9654;</button> -->
+            <!-- Lazy-Loaded Iframe (Hidden Initially) -->
+            <iframe
+              title="Fisheries project"
+              data-src="https://www.youtube.com/embed/Afe9xoIXz2I?autoplay=1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              loading="lazy"
+              class="lazy-iframe"
+            ></iframe>
+          </div>
+          <div class="content_child">
+            <span
+              >The project components include workshops, exhibitions, stores,
+              general site services and management.</span
+            >
+            <div>
+              <span class="Authority_desc">Assignment Authority</span>
+              <span class="clients">: Ministry of Culture</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Nature of work</span>
+              <span class="clients">: Construction</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Project duration</span>
+              <span class="clients">: 24 months</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Position</span>
+              <span class="clients">: May 15 , Cairo</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Area</span>
+              <span class="clients">: 8000 square meters</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Slider 1 -->
+      <div class="project-slider" id="slider-4">
+        <div class="project-slides">
+          <div class="project-slide">
+            <img
+              src="./images/arts-gallery (1).png"
+              alt="Heraa constructions May 15 Arts Complex project"
+              loading="lazy"
+            />
+            <img
+              src="./images/arts-gallery (1).jpeg"
+              alt="Heraa constructions May 15 Arts Complex project"
+              loading="lazy"
+            />
+            <img
+              src="./images/arts-gallery (2).jpeg"
+              alt="Heraa constructions May 15 Arts Complex project"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      
+      </div>
+    </section>
+    <section class="project-sec1" id="Biral-Abd">
+      <div class="projects_container">
+        <div class="projects_head">
+         
+          <span
+            >Reclamation of six thousand acres in the city of Bir al-Abd</span
+          >
+
+        </div>
+        <div class="project_content">
+          <div class="iframe-fallback" data-video-id="Afe9xoIXz2I">
+            <!-- Preview Image -->
+            <img
+              src="./images/ber-albd (1).jpg"
+              alt="Heraa constructions Reclamation of six thousand acres in the city of Bir al-Abd project"
+              class="video-thumbnail"
+              loading="lazy"
+            />
+            <!-- Play Button -->
+            <button class="play-button">&#9654;</button>
+            <!-- Lazy-Loaded Iframe (Hidden Initially) -->
+            <iframe
+              title="Fisheries project"
+              data-src="https://www.youtube.com/embed/TwzUnYHB1Nc?si=E20rDmFshmcduUbz"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              loading="lazy"
+              class="lazy-iframe"
+            ></iframe>
+          </div>
+          <div class="content_child content_child_bir">
+            <span
+              >Agricultural reclamation of six thousand acres in Bir al-Abd in
+              North Sinai as part of an intensive plan that includes the
+              reclamation of a quarter hundred thousand acres to expand the
+              agricultural area nationwide.</span
+            >
+            <div>
+              <span class="Authority_desc">Assignment Authority</span>
+              <span class="clients">: Ministry of Agriculture</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Nature of work</span>
+              <span class="clients">: Reclamation and construction</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Project duration</span>
+              <span class="clients">: 12 months</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Position</span>
+              <span class="clients">: Bir al-Abd, North Sinai</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Area</span>
+              <span class="clients">: 6000 acres</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Slider 1 -->
+      <div class="project-slider" id="slider-5">
+        <div class="project-slides">
+          <div class="project-slide">
+            <img
+              src="./images/ber-albd (3).jpg"
+              alt="Heraa constructions Reclamation of six thousand acres in the city of Bir al-Abd project"
+              loading="lazy"
+            />
+            <img
+              src="./images/ber-albd (2).jpg"
+              alt="Heraa constructions Reclamation of six thousand acres in the city of Bir al-Abd project"
+              loading="lazy"
+            />
+            <img
+              src="./images/ber-albd (7).jpg"
+              alt="Heraa constructions Reclamation of six thousand acres in the city of Bir al-Abd project"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      
+      </div>
+    </section>
+    <section class="project-sec1" id="abu-simple">
+      <div class="projects_container">
+        <div class="projects_head">
+         
+          <span>The World Cultural Center in Abu Simbel</span>
+
+        </div>
+        <div class="project_content">
+          <div class="iframe-fallback" data-video-id="Afe9xoIXz2I">
+            <!-- Preview Image -->
+            <img
+              src="./images/abo-simple (4).jpeg"
+              alt="Heraa constructions The World Cultural Center in Abu Simbel project"
+              class="video-thumbnail"
+              loading="lazy"
+            />
+            <!-- Play Button -->
+            <button class="play-button">&#9654;</button>
+            <!-- Lazy-Loaded Iframe (Hidden Initially) -->
+            <iframe
+              title="Fisheries project"
+              data-src="https://www.youtube.com/embed/BbKZnVqjg9g?si=V_dXU5uQjzINa15a"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              loading="lazy"
+              class="lazy-iframe"
+            ></iframe>
+          </div>
+          <div class="content_child content_child_bir">
+            <span
+              >Abu Simbel Culture Palace includes a public library stocked with
+              4,000 books, a children’s library stocked with 2,500 books, in
+              addition to a hall for seminars and lectures, a hall for poetry
+              evenings and other meetings, and also an outdoor theatre.</span
+            >
+            <div>
+              <span class="Authority_desc">Assignment Authority</span>
+              <span class="clients">: Ministry of Culture</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Nature of work</span>
+              <span class="clients">: Construction</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Project duration</span>
+              <span class="clients">: 24 months</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Position</span>
+              <span class="clients">: Abu Simbel Aswan</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Area</span>
+              <span class="clients">: 5200 square meters</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Slider 1 -->
+      <div class="project-slider" id="slider-6">
+        <div class="project-slides">
+          <div class="project-slide">
+            <img
+              src="./images/abo-simple (3).jpeg"
+              alt="Heraa constructions The World Cultural Center in Abu Simbel project"
+              loading="lazy"
+            />
+            <img
+              src="./images/abo-simple (2).jpeg"
+              alt="Heraa constructions The World Cultural Center in Abu Simbel project"
+              loading="lazy"
+            />
+            <img
+              src="./images/abo-simple (1).jpeg"
+              alt="Heraa constructions The World Cultural Center in Abu Simbel project"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      
+      </div>
+    </section>
+    <section class="project-sec1" id="qena">
+      <div class="projects_container">
+        <div class="projects_head">
+         
+          <span>Theater and Palace of Culture Qena</span>
+        </div>
+        <div class="project_content">
+          <div class="iframe-fallback" data-video-id="Afe9xoIXz2I">
+            <!-- Preview Image -->
+            <img
+              src="./images/qena (1).jpg"
+              alt="Heraa constructions Theater and Palace of Culture Qena project"
+              class="video-thumbnail"
+              loading="lazy"
+            />
+            <!-- Play Button -->
+            <button class="play-button">&#9654;</button>
+            <!-- Lazy-Loaded Iframe (Hidden Initially) -->
+            <iframe
+              title="Fisheries project"
+              data-src="https://www.youtube.com/embed/_GfsEa6XgsE?si=jS4jTInfz1HpibYT"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              loading="lazy"
+              class="lazy-iframe"
+            ></iframe>
+          </div>
+          <div class="content_child content_child_bir content_child_bir1">
+            <span
+              >The Qena Culture Palace consists of 6 floors, including the
+              administration offices of the Culture Branch, the Children’s
+              Culture Palace, and a theater that can accommodate 500 people, in
+              addition to activity halls such as music and plastic arts, a
+              library, a women’s club, a literature club, and a technology
+              club.</span
+            >
+            <div>
+              <span class="Authority_desc">Assignment Authority</span>
+              <span class="clients">: Ministry of Culture</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Nature of work</span>
+              <span class="clients">: Development and renewal</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Project duration</span>
+              <span class="clients">: 18 months</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Position</span>
+              <span class="clients">: Qena</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Area</span>
+              <span class="clients">: 2600 square meters</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Slider 1 -->
+      <div class="project-slider" id="slider-7">
+        <div class="project-slides">
+          <div class="project-slide">
+            <img
+              src="./images/qena (2).jpg"
+              alt="Heraa constructions Theater and Palace of Culture Qena project"
+              loading="lazy"
+            />
+            <img
+              src="./images/qena (3).jpg"
+              alt="Heraa constructions Theater and Palace of Culture Qena project"
+              loading="lazy"
+            />
+            <img
+              src="./images/qena (4).jpg"
+              alt="Heraa constructions Theater and Palace of Culture Qena project"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      
+      </div>
+    </section>
+    <section class="project-sec1" id="island">
+      <div class="projects_container">
+        <div class="projects_head">
+         
+          <span>Museum of Island and Civilization</span>
+        </div>
+        <div class="project_content">
+          <div
+            class="iframe-fallback"
+            data-video-id="Afe9xoIXz2I"
+          >
+            <!-- Preview Image -->
+            <img
+              src="./images/modern-art (2).jpeg"
+              alt="Heraa constructions Museum of Island and Civilization project"
+              class="video-thumbnail"
+              loading="lazy"
+            />
+            <!-- Play Button -->
+            <!-- <button class="play-button">&#9654;</button> -->
+            <!-- Lazy-Loaded Iframe (Hidden Initially) -->
+            <iframe
+              title="Fisheries project"
+              data-src="https://www.youtube.com/embed/5WksCwxMdDI?si=LDDue1xlGeTu_7nC"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              loading="lazy"
+              class="lazy-iframe"
+            ></iframe>
+          </div>
+          <div class="content_child">
+            <span
+              >The project is the development of the Gezira Museum in the Opera
+              House / Gezira to revive The cultural and civilizational heritage
+              is the planetarium building, which will have halls To display
+              artistic and plastic paintings and souvenirs, and a building
+              connected to the museum, which is distinguished by its facades
+              that overlook natural scenery. The project is characterized by the
+              presence of exhibition halls with large, equipped spaces. It has
+              anti-theft protection systems, a surveillance system, a fire alarm
+              system, and an automatic extinguishing system</span
+            >
+            <div>
+              <span class="Authority_desc">Assignment Authority</span>
+              <span class="clients">: Ministry of Culture</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Nature of work</span>
+              <span class="clients">: Development and renewal</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Project duration</span>
+              <span class="clients">: 30 months</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Position</span>
+              <span class="clients">: Zamalek Cairo</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Area</span>
+              <span class="clients">: 5000 square meters</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Slider 1 -->
+      <div class="project-slider" id="slider-8">
+        <div class="project-slides">
+          <div class="project-slide">
+            <img
+              src="./images/modern-art (2).JPG"
+              alt="Heraa constructions Museum of Island and Civilization project"
+              loading="lazy"
+            />
+            <img
+              src="./images/modern-art (3).jpeg"
+              alt="Heraa constructions Museum of Island and Civilization project"
+              loading="lazy"
+            />
+            <img
+              src="./images/modern-art (4).jpeg"
+              alt="Heraa constructions Museum of Island and Civilization project"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      
+      </div>
+    </section>
+    <section class="project-sec1" id="rateb">
+      <div class="projects_container">
+        <div class="projects_head">
+         
+          <span>Museum of Rateb Sediq</span>
+        </div>
+        <div class="project_content">
+          <div class="iframe-fallback" data-video-id="Afe9xoIXz2I">
+            <!-- Preview Image -->
+            <img
+              src="./images/reateb-sedek (2).jpg"
+              alt="Heraa constructions Museum of Rateb Sediq project"
+              class="video-thumbnail"
+              loading="lazy"
+            />
+            <!-- Play Button -->
+            <button class="play-button">&#9654;</button>
+            <!-- Lazy-Loaded Iframe (Hidden Initially) -->
+            <iframe
+              title="Fisheries project"
+              data-src="https://www.youtube.com/embed/f1zWA7j7kew?si=kmsMYjrHd4fWVI7y"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              loading="lazy"
+              class="lazy-iframe"
+            ></iframe>
+          </div>
+          <div class="content_child">
+            <span
+              >Developing and renovating Ratib Sediq’s house to be a museum and
+              creating a cultural and social center around it.</span
+            >
+            <div>
+              <span class="Authority_desc">Assignment Authority</span>
+              <span class="clients">: Ministry of Culture</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Nature of work</span>
+              <span class="clients">: Construction</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Project duration</span>
+              <span class="clients">: 12 months</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Position</span>
+              <span class="clients">: Al-Munib Giza</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Area</span>
+              <span class="clients">: 5000 square meters</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Slider 1 -->
+      <div class="project-slider" id="slider-9">
+        <div class="project-slides">
+          <div class="project-slide">
+            <img
+              src="./images/reateb-sedek (3).jpg"
+              alt="Heraa constructions Museum of Rateb Sediq project"
+              loading="lazy"
+            />
+            <img
+              src="./images/reateb-sedek (4).jpg"
+              alt="Heraa constructions Museum of Rateb Sediq project"
+              loading="lazy"
+            />
+            <img
+              src="./images/reateb-sedek (5).jpeg"
+              alt="Heraa constructions Museum of Rateb Sediq project"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      
+      </div>
+    </section>
+    <section class="project-sec1" id="port-said">
+      <div class="projects_container">
+        <div class="projects_head">
+         
+          <span>Port Saiid Taxes Complex</span>
+        </div>
+        <div class="project_content">
+          <div class="iframe-fallback" data-video-id="Afe9xoIXz2I">
+            <!-- Preview Image -->
+            <img
+              src="./images/port-said (1).jpeg"
+              alt="Heraa constructions Port Saiid Taxes Complex project"
+              class="video-thumbnail"
+              loading="lazy"
+            />
+            <!-- Play Button -->
+            <!-- <button class="play-button">&#9654;</button> -->
+            <!-- Lazy-Loaded Iframe (Hidden Initially) -->
+            <iframe
+              title="Fisheries project"
+              data-src="https://www.youtube.com/embed/Afe9xoIXz2I?autoplay=1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              loading="lazy"
+              class="lazy-iframe"
+            ></iframe>
+          </div>
+          <div class="content_child content_child_bir content_child_bir1">
+            <span>
+              The project components are infrastructure, 9 recurring floors,
+              customer service, administrative offices, a training center, two
+              floors for customs and real estate taxes, an archive and
+              reception, and the building next to it contains the electricity,
+              transformer and generator rooms.</span
+            >
+            <div>
+              <span class="Authority_desc">Assignment Authority</span>
+              <span class="clients">: Ministry of Finance</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Nature of work</span>
+              <span class="clients">: Construction</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Project duration</span>
+              <span class="clients">: 36 months</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Position</span>
+              <span class="clients">: Port Saiid</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Area</span>
+              <span class="clients">: 2200 square meters</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Slider 1 -->
+      <div class="project-slider" id="slider-10">
+        <div class="project-slides">
+          <div class="project-slide">
+            <img
+              src="./images/port-said (1).jpg"
+              alt="Heraa constructions Port Saiid Taxes Complex project"
+              loading="lazy"
+            />
+            <img
+              src="./images/port-said (2).jpeg"
+              alt="Heraa constructions Port Saiid Taxes Complex project"
+              loading="lazy"
+            />
+            <img
+              src="./images/port-said (2).jpg"
+              alt="Heraa constructions Port Saiid Taxes Complex project"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      
+      </div>
+    </section>
+    <section class="project-sec1" id="police-club">
+      <div class="projects_container">
+        <div class="projects_head">
+         
+          <span>Police Officers' Club New Building</span>
+        </div>
+        <div class="project_content">
+          <div class="iframe-fallback police-club1" data-video-id="Afe9xoIXz2I">
+            <!-- Preview Image -->
+            <img
+              src="./images/elgzeira-police (1).jpg"
+              alt="Heraa constructions Port Saiid Taxes Complex project"
+              class="video-thumbnail"
+              loading="lazy"
+            />
+            <!-- Play Button -->
+            <button class="play-button">&#9654;</button>
+            <!-- Lazy-Loaded Iframe (Hidden Initially) -->
+            <iframe
+              title="Fisheries project"
+              data-src="https://www.youtube.com/embed/-TFlC6YuvXE?si=VwGfXbn_7ZQH40BN"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              loading="lazy"
+              class="lazy-iframe"
+            ></iframe>
+          </div>
+          <div class="content_child">
+            <span
+              >The Police Club consists of administrative buildings, the civil
+              department, meeting rooms, waiting rooms, information center, VIP
+              hall, and the general site.</span
+            >
+            <div>
+              <span class="Authority_desc">Assignment Authority</span>
+              <span class="clients">: Home land security</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Nature of work</span>
+              <span class="clients">: Construction</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Project duration</span>
+              <span class="clients">: 8 months</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Position</span>
+              <span class="clients">: Zamalek Cairo</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Area</span>
+              <span class="clients">: 1200 square meters</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Slider 1 -->
+      <div class="project-slider" id="slider-11">
+        <div class="project-slides">
+          <div class="project-slide">
+            <img
+              src="./images/elgzeira-police (2).jpg"
+              alt="Heraa constructions Port Saiid Taxes Complex project"
+              loading="lazy"
+            />
+            <img
+              src="./images/elgzeira-police (3).jpg"
+              alt="Heraa constructions Port Saiid Taxes Complex project"
+              loading="lazy"
+            />
+            <img
+              src="./images/elgzeira-police (13).jpg"
+              alt="Heraa constructions Port Saiid Taxes Complex project"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      
+      </div>
+    </section>
+    <section class="project-sec1" id="tanta">
+      <div class="projects_container">
+        <div class="projects_head">
+         
+          <span>National Theatre of Tanta</span>
+        </div>
+        <div class="project_content">
+          <div class="iframe-fallback tanta-vid" data-video-id="Afe9xoIXz2I">
+            <!-- Preview Image -->
+            <img
+              src="./images/tanta (1).jpg"
+              alt="Heraa constructions National Theatre of Tanta Complex project"
+              class="video-thumbnail"
+              loading="lazy"
+            />
+            <!-- Play Button -->
+            <button class="play-button">&#9654;</button>
+            <!-- Lazy-Loaded Iframe (Hidden Initially) -->
+            <iframe
+              title="Fisheries project"
+              data-src="https://www.youtube.com/embed/a_hzE2rG5QY?si=xyXRCGMAhjG6Y_Gy"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              loading="lazy"
+              class="lazy-iframe"
+            ></iframe>
+          </div>
+          <div class="content_child">
+            <span
+              >Developing and renovating the Tanta City Theater to be a theater
+              and social center for the entire city that provides many services,
+              various workshops, and different forms of art that enhance the
+              community culturally and improve the standard of living.</span
+            >
+            <div>
+              <span class="Authority_desc">Assignment Authority</span>
+              <span class="clients">: Ministry of Culture</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Nature of work</span>
+              <span class="clients">: Developing and renovating</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Project duration</span>
+              <span class="clients">: 24 months</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Position</span>
+              <span class="clients">: Tanta Algharbia</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Area</span>
+              <span class="clients">: 3000 square meters</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Slider 1 -->
+      <div class="project-slider" id="slider-12">
+        <div class="project-slides">
+          <div class="project-slide">
+            <img
+              src="./images/tanta (2).jpg"
+              alt="Heraa constructions National Theatre of Tanta Complex project"
+              loading="lazy"
+            />
+            <img
+              src="./images/tanta (3).jpg"
+              alt="Heraa constructions National Theatre of Tanta Complex project"
+              loading="lazy"
+            />
+            <img
+              src="./images/tanta (4).jpg"
+              alt="Heraa constructions National Theatre of Tanta Complex project"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      
+      </div>
+    </section>
+    <section class="project-sec1" id="wadi-watir">
+      <div class="projects_container">
+        <div class="projects_head">
+         
+          <span>Dams and lakes in Wadi Watir</span>
+        </div>
+        <div class="project_content">
+          <div class="iframe-fallback" data-video-id="Afe9xoIXz2I">
+            <!-- Preview Image -->
+            <img
+              src="./images/dams1 (1).jpg"
+              alt="Heraa constructions Dams and lakes in Wadi Watir Complex project"
+              class="video-thumbnail"
+              loading="lazy"
+            />
+            <!-- Play Button -->
+            <button class="play-button">&#9654;</button>
+            <!-- Lazy-Loaded Iframe (Hidden Initially) -->
+            <iframe
+              title="Fisheries project"
+              data-src="https://www.youtube.com/embed/eE6Rj0YAHaM?si=2FodKHQDhRFR47KF"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              loading="lazy"
+              class="lazy-iframe"
+            ></iframe>
+          </div>
+          <div class="content_child">
+            <span
+              >Project components: a water lake, Al-Sawwanah Dam, Shafallah Dam,
+              and Shabiha Dam</span
+            >
+            <div>
+              <span class="Authority_desc">Assignment Authority</span>
+              <span class="clients">: Ministry of Irrigation</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Nature of work</span>
+              <span class="clients">: Construction</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Project duration</span>
+              <span class="clients">: 18 months</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Position</span>
+              <span class="clients">: Watir, South Sinai</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Area</span>
+              <span class="clients">: 5 million cubic meters for lakes only</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Slider 1 -->
+      <div class="project-slider" id="slider-13">
+        <div class="project-slides">
+          <div class="project-slide">
+            <img
+              src="./images/dams1 (2).jpeg"
+              alt="Heraa constructions Dams and lakes in Wadi Watir Complex project"
+              loading="lazy"
+            />
+            <img
+              src="./images/dams1 (2).jpeg"
+              alt="Heraa constructions Dams and lakes in Wadi Watir Complex project"
+              loading="lazy"
+            />
+            <img
+              src="./images/dams1 (3).jpg"
+              alt="Heraa constructions Dams and lakes in Wadi Watir Complex project"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      
+      </div>
+    </section>
+    <section class="project-sec1" id="suez-tax">
+      <div class="projects_container">
+        <div class="projects_head">
+          <span>Suez Taxes Complex</span>
+        </div>
+        <div class="project_content">
+          <div class="iframe-fallback" data-video-id="Afe9xoIXz2I">
+            <!-- Preview Image -->
+            <img
+              src="./images/elswes (3).jpeg"
+              alt="Heraa constructions Suez Taxes Complex project"
+              class="video-thumbnail"
+              loading="lazy"
+            />
+            <!-- Play Button -->
+            <!-- <button class="play-button">&#9654;</button> -->
+            <!-- Lazy-Loaded Iframe (Hidden Initially) -->
+            <iframe
+              title="Fisheries project"
+              data-src="https://www.youtube.com/embed/Afe9xoIXz2I?autoplay=1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              loading="lazy"
+              class="lazy-iframe"
+            ></iframe>
+          </div>
+          <div class="content_child">
+            <span
+              >Comprehensive development, renovation and reinforcement works for three floors. The works include structural components, fire-fighting systems, surveillance systems, alarm systems, sound systems and mechanization works.</span
+            >
+            <div>
+              <span class="Authority_desc">Assignment Authority</span>
+              <span class="clients">: Ministry of Finance</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Nature of work</span>
+              <span class="clients">: Construction</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Project duration</span>
+              <span class="clients">: 18 months</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Position</span>
+              <span class="clients">: Suez</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Area</span>
+              <span class="clients">: 1800 square meters</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Slider 1 -->
+      <div class="project-slider" id="slider-14">
+        <div class="project-slides">
+          <div class="project-slide">
+            <img
+              src="./images/elswes (2).jpeg"
+              alt="Heraa constructions Dams and lakes in Suez Taxes Complex project"
+              loading="lazy"
+            />
+            <img
+              src="./images/elswes (1).jpeg"
+              alt="Heraa constructions Dams and lakes in Suez Taxes Complex project"
+              loading="lazy"
+            />
+            <img
+              src="./images/elswes (4).jpeg"
+              alt="Heraa constructions Dams and lakes in Suez Taxes Complex project"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      
+      </div>
+    </section>
+    <section class="project-sec1" id="beni-suef">
+      <div class="projects_container">
+        <div class="projects_head">
+         
+          <span>Beni Suef Security Directorate</span>
+        </div>
+        <div class="project_content">
+          <div class="iframe-fallback" data-video-id="Afe9xoIXz2I">
+            <!-- Preview Image -->
+            <img
+              src="./images/beni-swef (1).jpeg"
+              alt="Heraa constructions Beni Suef Security Directorate project"
+              class="video-thumbnail"
+              loading="lazy"
+            />
+            <!-- Play Button -->
+            <button class="play-button">&#9654;</button>
+            <!-- Lazy-Loaded Iframe (Hidden Initially) -->
+            <iframe
+              title="Fisheries project"
+              data-src="https://www.youtube.com/embed/f0njd6B1iYY?si=ZCkPBc6wLd_PCGr-"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              loading="lazy"
+              class="lazy-iframe"
+            ></iframe>
+          </div>
+          <div class="content_child">
+            <span
+              >The project consists of 7 floors, a basement, an information
+              center, service offices, administrative offices, meeting rooms,
+              security towers, and the general site.</span
+            >
+            <div>
+              <span class="Authority_desc">Assignment Authority</span>
+              <span class="clients">: Ministry of interior</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Nature of work</span>
+              <span class="clients">: Construction</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Project duration</span>
+              <span class="clients">: 18 months</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Position</span>
+              <span class="clients">: Beni Suef</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Area</span>
+              <span class="clients">: 15000 square meters</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Slider 1 -->
+      <div class="project-slider" id="slider-15">
+        <div class="project-slides">
+          <div class="project-slide">
+            <img
+              src="./images/beni-swef (2).jpg"
+              alt="Heraa constructions Beni Suef Security Directorate project"
+              loading="lazy"
+            />
+            <img
+              src="./images/beni-swef (3).jpg"
+              alt="Heraa constructions Beni Suef Security Directorate project"
+              loading="lazy"
+            />
+            <img
+              src="./images/beni-swef (4).jpg"
+              alt="Heraa constructions Beni Suef Security Directorate project"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      
+      </div>
+    </section>
+    <!-- <section class="project-sec1" id="gamaleya">
+      <div class="projects_container">
+        <div class="projects_head">
+         
+          <span>Gamaleya Police Complex</span>
+        </div>
+        <div class="project_content">
+          <div class="iframe-fallback" data-video-id="Afe9xoIXz2I">
+           <img
+              src="https://img.youtube.com/vi/Afe9xoIXz2I/maxresdefault.jpg"
+              alt="Video Preview"
+              class="video-thumbnail"
+              loading="lazy"
+            />
+            
+            <button class="play-button">&#9654;</button> 
+           <iframe
+              title="Fisheries project"
+              data-src="https://www.youtube.com/embed/Afe9xoIXz2I?autoplay=1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              loading="lazy"
+              class="lazy-iframe"
+            ></iframe>
+          </div>
+          <div class="content_child">
+            <span
+              >It consists of a basement with 6 floors, entrance courtyard,
+              men’s detention rooms, women’s detention rooms, administrative
+              offices, warehouses, weapons storage, civil registry, computer
+              laboratories, lecture halls.</span
+            >
+            <div>
+              <span class="Authority_desc">Assignment Authority</span>
+              <span class="clients">: Ministry of Interior</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Nature of work</span>
+              <span class="clients">: Construction</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Project duration</span>
+              <span class="clients">: 18 months</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Position</span>
+              <span class="clients">: Gamaleya , Cairo</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Area</span>
+              <span class="clients">: 5000 square meters</span>
+            </div>
+          </div>
+        </div>
+      </div> 
+      <div class="project-slider" id="slider-16">
+        <div class="project-slides">
+          <div class="project-slide">
+            <img
+              src="./images/gamal abd el nasser musem8.jpg"
+              alt="Image 4"
+              loading="lazy"
+            />
+            <img
+              src="./images/gamal abd el nasser musem9.jpg"
+              alt="Image 5"
+              loading="lazy"
+            />
+            <img
+              src="./images/gamal abd el nasser musem10.jpg"
+              alt="Image 6"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      
+      </div>
+    </section> -->
+    <section class="project-sec1" id="Ismailia">
+      <div class="projects_container">
+        <div class="projects_head">
+         
+          <span>Ismailia Culture Palace</span>
+        </div>
+        <div class="project_content">
+          <div class="iframe-fallback" data-video-id="Afe9xoIXz2I">
+            <img
+              src="./images/imalia-1 (1).jpeg"
+              alt="Heraa constructions Ismailia Culture Palace project"
+              class="video-thumbnail"
+              loading="lazy"
+            />
+            <button class="play-button">&#9654;</button>
+            <iframe
+              title="Fisheries project"
+              data-src="https://www.youtube.com/embed/Afe9xoIXz2I?autoplay=1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              loading="lazy"
+              class="lazy-iframe"
+            ></iframe>
+          </div>
+          <div class="content_child">
+            <span
+              >The project components include a theatre, an exhibition hall, a
+              conference hall, administrative offices, a summer theatre, and
+              service spaces</span
+            >
+            <div>
+              <span class="Authority_desc">Assignment Authority</span>
+              <span class="clients">: Ministry of Culture</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Nature of work</span>
+              <span class="clients">: Developing and renovating</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Project duration</span>
+              <span class="clients">: 18 months</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Position</span>
+              <span class="clients">: Ismailia</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Area</span>
+              <span class="clients">: 5000 square meters</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Slider 1 -->
+      <div class="project-slider" id="slider-17">
+        <div class="project-slides">
+          <div class="project-slide">
+            <img
+              src="./images/imalia-1 (2).jpeg"
+              alt="Heraa constructions Ismailia Culture Palace project"
+              loading="lazy"
+            />
+            <img
+              src="./images/imalia-1 (4).jpeg"
+              alt="Heraa constructions Ismailia Culture Palace project"
+              loading="lazy"
+            />
+            <img
+              src="./images/imalia-1 (5).jpeg"
+              alt="Heraa constructions Ismailia Culture Palace project"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      
+      </div>
+    </section>
+    <section class="project-sec1" id="alsyda">
+      <div class="projects_container">
+        <div class="projects_head">
+         
+          <span>Alsayida Zaynab Taxes</span>
+        </div>
+        <div class="project_content">
+          <div class="iframe-fallback" data-video-id="Afe9xoIXz2I">
+            <!-- Preview Image -->
+            <img
+              src="./images/el-sayda (1).jpeg"
+              alt="Heraa constructions Alsayida Zaynab Taxes project"
+              class="video-thumbnail"
+              loading="lazy"
+            />
+            <!-- Play Button -->
+            <!-- <button class="play-button">&#9654;</button> -->
+            <!-- Lazy-Loaded Iframe (Hidden Initially) -->
+            <iframe
+              title="Fisheries project"
+              data-src="https://www.youtube.com/embed/Afe9xoIXz2I?autoplay=1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              loading="lazy"
+              class="lazy-iframe"
+            ></iframe>
+          </div>
+          <div class="content_child">
+            <span
+              >The project components: 10 floors and three floors for customer
+              service, administrative offices, archives, stores, service spaces,
+              electricity rooms, camera rooms and UPS.</span
+            >
+            <div>
+              <span class="Authority_desc">Assignment Authority</span>
+              <span class="clients">: Ministry of Finance</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Nature of work</span>
+              <span class="clients">: Developing and renovating</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Project duration</span>
+              <span class="clients">: 15 months</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Position</span>
+              <span class="clients">: Alsayida Zaynab , Cairo</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Area</span>
+              <span class="clients">: 4000 square meters</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Slider 1 -->
+      <div class="project-slider" id="slider-18">
+        <div class="project-slides">
+          <div class="project-slide">
+            <img
+              src="./images/el-sayda (2).jpeg"
+              alt="Heraa constructions Alsayida Zaynab Taxes project"
+              loading="lazy"
+            />
+            <img
+              src="./images/el-sayda (3).jpeg"
+              alt="Heraa constructions Alsayida Zaynab Taxes project"
+              loading="lazy"
+            />
+            <img
+              src="./images/el-sayda (4).jpeg"
+              alt="Heraa constructions Alsayida Zaynab Taxes project"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      
+      </div>
+    </section>
+    <section class="project-sec1" id="mut">
+      <div class="projects_container">
+        <div class="projects_head">
+         
+          <span>Mut Culture Palace</span>
+        </div>
+        <div class="project_content">
+          <div class="iframe-fallback" data-video-id="Afe9xoIXz2I">
+            <!-- Preview Image -->
+            <img
+              src="./images/mut (1).jpeg"
+              alt="Heraa constructions Mut Culture Palace project"
+              class="video-thumbnail"
+              loading="lazy"
+            />
+            <!-- Play Button -->
+            <button class="play-button">&#9654;</button>
+            <!-- Lazy-Loaded Iframe (Hidden Initially) -->
+            <iframe
+              title="Fisheries project"
+              src="https://www.youtube.com/embed/ZhUO2cRinsc?si=dt9TiKBhrO2yTaSp"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              loading="lazy"
+              class="lazy-iframe"
+            ></iframe>
+          </div>
+          <div class="content_child">
+            <span
+              >The project components include a cinema, a theatre, warehouses,
+              services, administrative offices, and temporary housing.</span
+            >
+            <div>
+              <span class="Authority_desc">Assignment Authority</span>
+              <span class="clients">: Ministry of Culture</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Nature of work</span>
+              <span class="clients">: Developing and renovating</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Project duration</span>
+              <span class="clients">: 18 months</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Position</span>
+              <span class="clients">: Dakhla Oases, New Valley</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Area</span>
+              <span class="clients">: 2260 square meters</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Slider 1 -->
+      <div class="project-slider" id="slider-19">
+        <div class="project-slides">
+          <div class="project-slide">
+            <img
+              src="./images/mut (2).jpeg"
+              alt="Heraa constructions Mut Culture Palace project"
+              loading="lazy"
+            />
+            <img
+              src="./images/mut (3).jpeg"
+              alt="Heraa constructions Mut Culture Palace project"
+              loading="lazy"
+            />
+            <img
+              src="./images/mut (1).jpeg"
+              alt="Heraa constructions Mut Culture Palace project"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      
+      </div>
+    </section>
+    <section class="project-sec1" id="heliopolis">
+      <div class="projects_container">
+        <div class="projects_head">
+         
+          <span>The main treatment station in New Heliopolis</span>
+        </div>
+        <div class="project_content">
+          <div class="iframe-fallback" data-video-id="Afe9xoIXz2I">
+            <!-- Preview Image -->
+            <img
+              src="./images/heliopls (1).jpeg"
+              alt="Heraa constructions The main treatment station in New Heliopolis project"
+              class="video-thumbnail"
+              loading="lazy"
+            />
+            <!-- Play Button -->
+            <!-- <button class="play-button">&#9654;</button> -->
+            <!-- Lazy-Loaded Iframe (Hidden Initially) -->
+            <iframe
+              title="Fisheries project"
+              data-src="https://www.youtube.com/embed/Afe9xoIXz2I?autoplay=1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              loading="lazy"
+              class="lazy-iframe"
+            ></iframe>
+          </div>
+          <div class="content_child">
+            <span
+              >Project components: workshops and buildings, electromechanical
+              works, administrative buildings, warehouses, lifting station,
+              sewage treatment plant, road network, networks, general
+              site.</span
+            >
+            <div>
+              <span class="Authority_desc">Assignment Authority</span>
+              <span class="clients">: Misr Algadida Company</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Nature of work</span>
+              <span class="clients">: Infrastructure</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Project duration</span>
+              <span class="clients">: 12 months</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Position</span>
+              <span class="clients">: New Heliopolis ,Suez Road</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Area</span>
+              <span class="clients">: 3000 square meters</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Slider 1 -->
+      <div class="project-slider" id="slider-20">
+        <div class="project-slides">
+          <div class="project-slide">
+            <img
+              src="./images/heliopls (1).jpg"
+              alt="Heraa constructions The main treatment station in New Heliopolis project"
+              loading="lazy"
+            />
+            <img
+              src="./images/heliopls (2).jpeg"
+              alt="Heraa constructions The main treatment station in New Heliopolis project"
+              loading="lazy"
+            />
+            <img
+              src="./images/heliopls (2).jpg"
+              alt="Heraa constructions The main treatment station in New Heliopolis project"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      
+      </div>
+    </section>
+    <section class="project-sec1" id="wadi-natroun">
+      <div class="projects_container">
+        <div class="projects_head">
+         
+          <span>Wadi El-Natroun Culture Palace</span>
+        </div>
+        <div class="project_content">
+          <div class="iframe-fallback" data-video-id="Afe9xoIXz2I">
+            <!-- Preview Image -->
+            <img
+              src="./images/wadi-elnatron (1).jpeg"
+              alt="Heraa constructions Wadi El-Natroun Culture Palace project"
+              class="video-thumbnail"
+              loading="lazy"
+            />
+            <!-- Play Button -->
+            <button class="play-button">&#9654;</button>
+            <!-- Lazy-Loaded Iframe (Hidden Initially) -->
+            <iframe
+              data-src="https://www.youtube.com/embed/b0k9mn18TQM?si=S_Ea4af5qlwyrWnf"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              loading="lazy"
+              class="lazy-iframe"
+            ></iframe>
+          </div>
+          <div class="content_child">
+            <span
+              >The project components include a theatre, multi-use halls,
+              administrative offices, a public library, a bookstore, exhibition
+              halls, computer labs, halls for women and children, and a VIP
+              hall.</span
+            >
+            <div>
+              <span class="Authority_desc">Assignment Authority</span>
+              <span class="clients">: Ministry of Culture</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Nature of work</span>
+              <span class="clients">: Construction</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Project duration</span>
+              <span class="clients">: 18 months</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Position</span>
+              <span class="clients">: Wadi El-Natroun</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Area</span>
+              <span class="clients">: 3755 square meters</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Slider 1 -->
+      <div class="project-slider" id="slider-21">
+        <div class="project-slides">
+          <div class="project-slide">
+            <img
+              src="./images/wadi-elnatron (1).png"
+              alt="Heraa constructions Wadi El-Natroun Culture Palace project"
+              loading="lazy"
+            />
+            <img
+              src="./images/wadi-elnatron (2).jpeg"
+              alt="Heraa constructions Wadi El-Natroun Culture Palace project"
+              loading="lazy"
+            />
+            <img
+              src="./images/wadi-elnatron (3).jpeg"
+              alt="Heraa constructions Wadi El-Natroun Culture Palace project"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      
+      </div>
+    </section>
+    <section class="project-sec1" id="abo-matamir">
+      <div class="projects_container">
+        <div class="projects_head">
+         
+          <span>Abu Al Matamir Culture Palace</span>
+        </div>
+        <div class="project_content">
+          <div class="iframe-fallback" data-video-id="Afe9xoIXz2I">
+            <!-- Preview Image -->
+            <img
+              src="./images/matamer (1).JPG"
+              alt="Heraa constructions Abu Al Matamir Culture Palace project"
+              class="video-thumbnail"
+              loading="lazy"
+            />
+            <!-- Play Button -->
+            <!-- <button class="play-button">&#9654;</button> -->
+            <!-- Lazy-Loaded Iframe (Hidden Initially) -->
+            <iframe
+              title="Fisheries project"
+              data-src="https://www.youtube.com/embed/Afe9xoIXz2I?autoplay=1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              loading="lazy"
+              class="lazy-iframe"
+            ></iframe>
+          </div>
+          <div class="content_child">
+            <span>
+              Project components: administrative offices, exhibitions, ceremony
+              theatre, actors’ rooms, a VIP hall, a multi-use hall, and a hotel
+              service for the teams.</span
+            >
+            <div>
+              <span class="Authority_desc">Assignment Authority</span>
+              <span class="clients">: Ministry of Culture</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Nature of work</span>
+              <span class="clients">: Construction</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Project duration</span>
+              <span class="clients">: 24 months</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Position</span>
+              <span class="clients">: Beheira</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Area</span>
+              <span class="clients">: 4000 square meters</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Slider 1 -->
+      <div class="project-slider" id="slider-22">
+        <div class="project-slides">
+          <div class="project-slide">
+            <img
+              src="./images/matamer (2).JPG"
+              alt="Heraa constructions Abu Al Matamir Culture Palace project"
+              loading="lazy"
+            />
+            <img
+              src="./images/matamer (1).JPG"
+              alt="Heraa constructions Abu Al Matamir Culture Palace project"
+              loading="lazy"
+            />
+            <img
+              src="./images/matamer (3).JPG"
+              alt="Heraa constructions Abu Al Matamir Culture Palace project"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      
+      </div>
+    </section>
+    <section class="project-sec1" id="el-azhar">
+      <div class="projects_container">
+        <div class="projects_head">
+         
+          <span>Development of Sheikhdom of Al-Azhar</span>
+        </div>
+        <div class="project_content">
+          <div class="iframe-fallback" data-video-id="Afe9xoIXz2I">
+            <!-- Preview Image -->
+            <img
+              src="./images/elazhar-1 (1).jpg"
+              alt="Heraa constructions Development of Sheikhdom of Al-Azhar project"
+              class="video-thumbnail"
+              loading="lazy"
+            />
+            <!-- Play Button -->
+            <button class="play-button">&#9654;</button>
+            <!-- Lazy-Loaded Iframe (Hidden Initially) -->
+            <iframe
+              title="Fisheries project"
+              data-src="https://www.youtube.com/embed/FiDWuuT6n40?si=jhTSRfPgv0-h9Qhs"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              loading="lazy"
+              class="lazy-iframe"
+            ></iframe>
+          </div>
+          <div class="content_child">
+            <span
+              >Development, renovation and furnishing works for the Sheikhdom building, the office of the Sheikh of the Arhar, the offices of the assistants, administrators, security, roads and squares.</span
+            >
+            <div>
+              <span class="Authority_desc">Assignment Authority</span>
+              <span class="clients">: Ministry of Endowments</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Nature of work</span>
+              <span class="clients">: Developing and renovating</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Project duration</span>
+              <span class="clients">: 6 months</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Position</span>
+              <span class="clients">: Al-Azhar , Cairo</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Area</span>
+              <span class="clients">: 2000 square meters</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Slider 1 -->
+      <div class="project-slider" id="slider-23">
+        <div class="project-slides">
+          <div class="project-slide">
+            <img
+              src="./images/elazhar-1 (4).jpg"
+              alt="Heraa constructions Development of Sheikhdom of Al-Azhar project"
+              loading="lazy"
+            />
+            <img
+              src="./images/elazhar-1 (6).jpg"
+              alt="Heraa constructions Development of Sheikhdom of Al-Azhar project"
+              loading="lazy"
+            />
+            <img
+              src="./images/elazhar-1 (7).jpg"
+              alt="Heraa constructions Development of Sheikhdom of Al-Azhar project"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      
+      </div>
+    </section>
+    <section class="project-sec1" id="modern-art">
+      <div class="projects_container">
+        <div class="projects_head">
+         
+          <span>Museum of Modern Art</span>
+        </div>
+        <div class="project_content">
+          <div class="iframe-fallback" data-video-id="Afe9xoIXz2I">
+            <!-- Preview Image -->
+            <img
+              src="./images/modern-art (1).jpeg"
+              alt="Heraa constructions Museum of Modern Art project"
+              class="video-thumbnail"
+              loading="lazy"
+            />
+            <!-- Play Button -->
+            <button class="play-button">&#9654;</button>
+            <iframe
+              title="Fisheries project"
+              data-src="https://www.youtube.com/embed/5WksCwxMdDI?si=LDDue1xlGeTu_7nC"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              loading="lazy"
+              class="lazy-iframe"
+            ></iframe>
+          </div>
+          <div class="content_child">
+            <span
+              >The scope of work includes treating the surfaces to preserve the
+              building’s infrastructure and structure, given its importance in
+              displaying various artworks, as well as developing the museum’s
+              air conditioning and fire systems, establishing the necessary
+              electricity, and raising the efficiency of the museum’s networks
+              air conditioning, fire, and electricity</span
+            >
+            <div>
+              <span class="Authority_desc">Assignment Authority</span>
+              <span class="clients">: Ministry of Cultural</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Nature of work</span>
+              <span class="clients">: Raising and developing the efficiency</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Project duration</span>
+              <span class="clients">: 29 months</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Position</span>
+              <span class="clients">: Cairo, Opera house</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Area</span>
+              <span class="clients">: 5000 square meters</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Slider 1 -->
+      <div class="project-slider" id="slider-24">
+        <div class="project-slides">
+          <div class="project-slide">
+            <img
+              src="./images/modern-art (1).JPG"
+              alt="Heraa constructions Museum of Modern Art project"
+              loading="lazy"
+            />
+            <img
+              src="./images/modern-art (2).jpeg"
+              alt="Heraa constructions Museum of Modern Art project"
+              loading="lazy"
+            />
+            <img
+              src="./images/modern-art (2).JPG"
+              alt="Heraa constructions Museum of Modern Art project"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      
+      </div>
+    </section>
+    <!-- <section class="project-sec1" id="Ras-Hadaraba">
+      <div class="projects_container">
+        <div class="projects_head">
+         
+          <span>Ras Hadaraba Culture House</span>
+        </div>
+        <div class="project_content">
+          <div class="iframe-fallback" data-video-id="Afe9xoIXz2I">
+            <img
+              src="https://img.youtube.com/vi/Afe9xoIXz2I/maxresdefault.jpg"
+              alt="Video Preview"
+              class="video-thumbnail"
+              loading="lazy"
+            />
+            <button class="play-button">&#9654;</button>
+            <iframe
+              title="Fisheries project"
+              data-src="https://www.youtube.com/embed/1Rqm6po3dD4?si=Vw-4U-iOBgTRtEhC"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              loading="lazy"
+              class="lazy-iframe"
+            ></iframe>
+          </div>
+          <div class="content_child">
+            <span>The Ras Hadraba Cultural Palace building is built of load-bearing walls in the style of environmental architecture, with domes and cupolas, in keeping with the Egyptian environment. It consists of a ground floor with an area of ​​20,750 + a first floor part with an area of ​​170 square meters. The buildings represent 75% of the area.</span>
+            <div>
+              <span class="Authority_desc">Assignment Authority</span>
+              <span class="clients">: Ministry of Defense</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Nature of work</span>
+              <span class="clients">: Construction</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Project duration</span>
+              <span class="clients">: 72 months</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Position</span>
+              <span class="clients">: Red Sea</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Area</span>
+              <span class="clients">: 750 square meters</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-slider" id="slider-25">
+        <div class="project-slides">
+          <div class="project-slide">
+            <img
+              src="./images/gamal abd el nasser musem8.jpg"
+              alt="Image 4"
+              loading="lazy"
+            />
+            <img
+              src="./images/gamal abd el nasser musem9.jpg"
+              alt="Image 5"
+              loading="lazy"
+            />
+            <img
+              src="./images/gamal abd el nasser musem10.jpg"
+              alt="Image 6"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      
+      </div>
+    </section> -->
+    <section class="project-sec1" id="Marsaalam">
+      <div class="projects_container">
+        <div class="projects_head">
+         
+          <span>Marsa Alam taxes</span>
+        </div>
+        <div class="project_content">
+          <div class="iframe-fallback" data-video-id="Afe9xoIXz2I">
+            <!-- Preview Image -->
+            <img
+              src="./images/marasa-allam (1).jpeg"
+              alt="Heraa constructions Marsa Alam taxes project"
+              class="video-thumbnail"
+              loading="lazy"
+            />
+            <!-- Play Button -->
+            <!-- <button class="play-button">&#9654;</button> -->
+            <!-- Lazy-Loaded Iframe (Hidden Initially) -->
+            <iframe
+              title="Fisheries project"
+              data-src="https://www.youtube.com/embed/Afe9xoIXz2I?autoplay=1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              loading="lazy"
+              class="lazy-iframe"
+            ></iframe>
+          </div>
+          <div class="content_child">
+            <span
+              >Computer administration office, staff offices, tax collection
+              department, public waiting room, major taxpayers, archive and
+              storage rooms, pump rooms</span
+            >
+            <div>
+              <span class="Authority_desc">Assignment Authority</span>
+              <span class="clients">: Ministry of Finance</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Nature of work</span>
+              <span class="clients">: Construction</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Project duration</span>
+              <span class="clients">: 15 months</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Position</span>
+              <span class="clients">: Marsa-alam RedSea</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Area</span>
+              <span class="clients">: 1044 square meters</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Slider 1 -->
+      <div class="project-slider" id="slider-26">
+          <div class="project-slide">
+            <img
+              src="./images/marasa-allam (2).jpeg"
+              alt="Heraa constructions Marsa Alam taxes project"
+              loading="lazy"
+            />
+            <img
+              src="./images/marasa-allam (3).jpeg"
+              alt="Heraa constructions Marsa Alam taxes project"
+              loading="lazy"
+            />
+            <img
+              src="./images/marasa-allam (4).jpeg"
+              alt="Heraa constructions Marsa Alam taxes project"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      
+    </section>
+    <section class="project-sec1" id="safaga">
+      <div class="projects_container">
+        <div class="projects_head">
+         
+          <span>Safaga Tax Complex</span>
+        </div>
+        <div class="project_content">
+          <div class="iframe-fallback" data-video-id="Afe9xoIXz2I">
+            <!-- Preview Image -->
+            <img
+              src="./images/safaga (1).jpeg"
+              alt="Heraa constructions Safaga Tax Complex project"
+              class="video-thumbnail"
+              loading="lazy"
+            />
+            <!-- Play Button -->
+            <!-- <button class="play-button">&#9654;</button> -->
+            <!-- Lazy-Loaded Iframe (Hidden Initially) -->
+            <iframe
+              title="Fisheries project"
+              data-src="https://www.youtube.com/embed/Afe9xoIXz2I?autoplay=1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              loading="lazy"
+              class="lazy-iframe"
+            ></iframe>
+          </div>
+          <div class="content_child">
+            <span
+              >Computer administration office, staff offices, tax collection
+              department, public waiting room, major taxpayers, archive and
+              storage rooms, pump rooms</span
+            >
+            <div>
+              <span class="Authority_desc">Assignment Authority</span>
+              <span class="clients">: Ministry of Finance</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Nature of work</span>
+              <span class="clients">: Construction</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Project duration</span>
+              <span class="clients">: 15 months</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Position</span>
+              <span class="clients">: Safga</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Area</span>
+              <span class="clients">: 900 square meters</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Slider 1 -->
+      <div class="project-slider" id="slider-27">
+        <div class="project-slides">
+          <div class="project-slide">
+            <img
+              src="./images/safaga (2).jpeg"
+              alt="Heraa constructions Safaga Tax Complex project"
+              loading="lazy"
+            />
+            <img
+              src="./images/safaga (3).jpeg"
+              alt="Heraa constructions Safaga Tax Complex project"
+              loading="lazy"
+            />
+            <img
+              src="./images/safaga (4).jpeg"
+              alt="Heraa constructions Safaga Tax Complex project"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      
+      </div>
+    </section>
+    <section class="project-sec1" id="Hajer-house">
+      <div class="projects_container">
+        <div class="projects_head">
+         
+          <span>Hajer Al-Adaysat Culture House</span>
+        </div>
+        <div class="project_content">
+          <div class="iframe-fallback" data-video-id="Afe9xoIXz2I">
+            <img
+              src="./images/adysat1 (1) (1).jpeg"
+              alt="Heraa constructions Hajer Al-Adaysat Culture House project"
+              class="video-thumbnail"
+              loading="lazy"/>
+            <button class="play-button">&#9654;</button>
+            <!-- Lazy-Loaded Iframe (Hidden Initially) -->
+            <iframe
+              title="Fisheries project"
+              data-src="https://www.youtube.com/embed/1kVWY_Ec8Dg?si=gP4D1XxxbGxKtYQs"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              loading="lazy"
+              class="lazy-iframe"
+            ></iframe>
+          </div>
+          <div class="content_child">
+            <span
+              >For the community and consists of a role in the cultural barrier
+              project. The project aims to increase and spread the cultural
+              awareness among the people and the first and foremost and has a
+              capacity of 125 individuals and the project has been fully funded
+              and covered all areas to combat crime and its components (general
+              library - information technology - drawing room - administrative
+              offices - services - crafts and children's library - projection
+              room and stores - education room - landscape )</span
+            >
+            <div>
+              <span class="Authority_desc">Assignment Authority</span>
+              <span class="clients">: Ministry of Cultural</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Nature of work</span>
+              <span class="clients">: Construction and finishing</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Project duration</span>
+              <span class="clients">: 12 months</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Position</span>
+              <span class="clients">: Luxor</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Area</span>
+              <span class="clients">: 1250 square meters</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Slider 1 -->
+      <div class="project-slider" id="slider-28">
+        <div class="project-slides">
+          <div class="project-slide">
+            <img
+              src="./images/adysat1 (1).jpeg"
+              alt="Heraa constructions Hajer Al-Adaysat Culture House project"
+              loading="lazy"
+            />
+            <img
+              src="./images/adysat1 (2).jpeg"
+              alt="Heraa constructions Hajer Al-Adaysat Culture House project"
+              loading="lazy"
+            />
+            <img
+              src="./images/adysat1 (3).jpg"
+              alt="Heraa constructions Hajer Al-Adaysat Culture House project"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      
+      </div>
+    </section>
+    <!-- <section class="project-sec1" id="sand-basin">
+      <div class="projects_container">
+        <div class="projects_head">
+         
+          <span>Sand Basin Culture House</span>
+        </div>
+        <div class="project_content">
+          <div class="iframe-fallback" data-video-id="Afe9xoIXz2I">
+            <img
+              src="https://img.youtube.com/vi/Afe9xoIXz2I/maxresdefault.jpg"
+              alt="Video Preview"
+              class="video-thumbnail"
+              loading="lazy"
+            />
+            <button class="play-button">&#9654;</button>
+            <iframe
+              title="Fisheries project"
+              data-src="https://www.youtube.com/embed/Afe9xoIXz2I?autoplay=1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              loading="lazy"
+              class="lazy-iframe"
+            ></iframe>
+          </div>
+          <div class="content_child">
+            <span
+              >For the community and consists of two roles. The sand basin
+              culture project aims to increase and spread the cultural
+              awareness. The project has a capacity of 125 individuals and the
+              project has covered all areas to combat crime and its components
+              (general library - information and technology - drawing room -
+              administrative offices - services - crafts and children's library
+              - projection room and stores - education room)</span
+            >
+            <div>
+              <span class="Authority_desc">Assignment Authority</span>
+              <span class="clients">: Ministry of Culture</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Nature of work</span>
+              <span class="clients">: Construction and finishing</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Project duration</span>
+              <span class="clients">: 27 months</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Position</span>
+              <span class="clients">: Luxor</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Area</span>
+              <span class="clients">: 930 square meters</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-slider" id="slider-29">
+        <div class="project-slides">
+          <div class="project-slide">
+            <img
+              src="./images/gamal abd el nasser musem8.jpg"
+              alt="Image 4"
+              loading="lazy"
+            />
+            <img
+              src="./images/gamal abd el nasser musem9.jpg"
+              alt="Image 5"
+              loading="lazy"
+            />
+            <img
+              src="./images/gamal abd el nasser musem10.jpg"
+              alt="Image 6"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      
+      </div>
+    </section> -->
+    <section class="project-sec1" id="hibs">
+      <div class="projects_container">
+        <div class="projects_head">
+         
+          <span>Hibs Cinema</span>
+
+        </div>
+        <div class="project_content">
+          <div class="iframe-fallback" data-video-id="Afe9xoIXz2I">
+            <!-- Preview Image -->
+            <img
+              src="./images/hibs (1).jpeg"
+              alt="Heraa constructions Hibs Cinema project"
+              class="video-thumbnail"
+              loading="lazy"
+            />
+            <!-- Play Button -->
+            <button class="play-button">&#9654;</button>
+            <!-- Lazy-Loaded Iframe (Hidden Initially) -->
+            <iframe
+              title="Fisheries project"
+              data-src="https://www.youtube.com/embed/L-eIe5wWt2A?si=L-FJr6V9E8zNXP_P"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              loading="lazy"
+              class="lazy-iframe"
+            ></iframe>
+          </div>
+          <div class="content_child">
+            <span
+              >Construction, development and expansion works for the cinema building, services, activities and general site</span
+            >
+            <div>
+              <span class="Authority_desc">Assignment Authority</span>
+              <span class="clients">: Ministry of Cultural</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Nature of work</span>
+              <span class="clients">: Building rehabilitation</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Project duration</span>
+              <span class="clients">: 22 months</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Position</span>
+              <span class="clients">: New Valley</span>
+            </div>
+            <div>
+              <span class="Authority_desc">Area</span>
+              <span class="clients">: 1200 square meters</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Slider 1 -->
+      <div class="project-slider" id="slider-30">
+        <div class="project-slides">
+          <div class="project-slide">
+            <img
+              src="./images/hibs (2).jpeg"
+              alt="Heraa constructions Hibs Cinema project"
+              loading="lazy"
+            />
+            <img
+              src="./images/hibs (3).jpeg"
+              alt="Heraa constructions Hibs Cinema project"
+              loading="lazy"
+            />
+            <img
+              src="./images/hibs (4).jpeg"
+              alt="Heraa constructions Hibs Cinema project"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+    <footer>
+      <img
+        src="./images/heraa logo white-02 opacity 63.svg"
+        alt="herra-logo"
+        loading="lazy"
+        title="herra-logo"
+      />
+
+      <div class="footer_child">
+        <div class="footer1">
+          <span>Phone Number</span>
+          <a href="tel:+01223714570">+201223714570</a>
+          <span>Email</span>
+          <a href="mailto:info@heraaconstruction.com">info@heraaconstruction.com</a>
+          <span>Address</span>
+          <a
+            href="https://www.google.com/maps/search/?api=1&query=30.00908875035226,31.282815705291846"
+            target="_blank"
+          >
+            Plot 2058, First District, Middle <br />
+            Plateau, El-Mokattam, Cairo, Egypt
+          </a>
+        </div>
+
+        <div class="footer_special">
+          <span>Quick Links</span>
+          <div class="footer_child2">
+            <div class="footer_child3">
+              <a href="#home">Home</a>
+              <a href="#about">About Us</a>
+              <a href="#contact-us">Contact Us</a>
+              <a href="#Service">Services</a>
+            </div>
+            <div class="footer_child3">
+              <a href="#clients">Our Clients</a>
+              <a href="./projects-index.html">Projects</a>
+              <a href="">Carrers</a>
+              <a href="#press">Press &amp; News</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer2">
+        <span>Quick Links</span>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#contact-us">Contact Us</a>
+        <a href="#Services">Services</a>
+        <a href="#clients">Our Clients</a>
+        <a href="./projects-index.html">Projects</a>
+        <a href="">Carrers</a>
+        <a href="#press">Press &amp; News</a>
+      </div>
+    </footer>
+    <div class="overlay" id="overlay"></div>
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/Group 1.svg" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+      rel="stylesheet"/>
+    <title>الوظائف</title>
+    <link rel="stylesheet" href="./style.css" />
+    
+  </head>
+  <body class="careers-body">
+    <header id="home" class="projects-header carrer-header">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel">
+        <nav class="side_navbar">
+          <button class="hamburger" onclick="toggleSideNav()">
+            &#9776;<span>الرئيسة</span>
+          </button>
+          <div class="logo">
+            <img src="./images/Group 1.svg" alt="herra Logo" loading="lazy" title="Herra logo"/>
+          </div>
+          <div class="language-dropdown">
+            <img loading="lazy"
+              src="./images/Vector.svg"
+              alt="Language Icon"
+              class="language-icon"
+              title="language-icon"
+            />
+            <button class="language-button" onclick="toggleLanguageDropdown()" title="language-button">
+              اللغة
+            </button>
+            <div class="dropdown-content" id="customLanguageDropdown">
+              <a href="./carrers.html">English</a>
+              <a href="./carrers-ar.html">عربي</a>
+            </div>
+          </div>
+        </nav>
+        <div class="side-nav" id="sideNav">
+          <a
+            href="javascript:void(0)"
+            class="close-btn"
+            onclick="toggleSideNav()"
+            >&times;</a>
+          <a href="./index-ar.html#home">الرئيسة</a>
+          <a href="./index-ar.html#Services">الخدمات</a>
+          <a href="./index-ar.html#about">من نحن</a>
+          <a href="./index-ar.html#press">الصحافة والأخبار</a>
+          <a href="./projects-index -ar.html">مشاريع</a>
+          <a href="#">الوظائف</a>
+          <a href="./index-ar.html#contact-us">تواصل معانا</a>
+        </div>
+
+        <nav id="custom-nav" class="custom-nav-pr-ar">
+          <ul>
+            <li>
+              <a href="./index-ar.html#home" target="_self" rel="noopener noreferrer">الرئيسة</a>
+            </li>
+            <li>
+              <a
+                href="./index-ar.html#Services"
+                class="nav_name"
+                target="_self"
+                rel="noopener noreferrer"
+                >خدماتنا</a
+              >
+            </li>
+            <li>
+              <a href="./index-ar.html#about" target="_self" rel="noopener noreferrer"
+                >من نحن</a
+              >
+            </li>
+            <li>
+              <a href="./index-ar.html#press" target="_self" rel="noopener noreferrer"
+                >الصحافة &#38; الأعلام</a
+              >
+            </li>
+            <li><img src="./images/Group 1.svg" alt="" class="herra-logo" loading="lazy" title="herra-logo" /></li>
+            <li>
+              <a href="./projects-index -ar.html" target="_blank" rel="noopener noreferrer"
+                >مشاريع</a
+              >
+            </li>
+            <li>
+              <a href="http://" target="_blank" rel="noopener noreferrer"
+                >الوظائف</a
+              >
+            </li>
+            <li>
+              <a href="./index-ar.html#contact-us" target="_self" rel="noopener noreferrer">تواصل معانا</a
+              >
+            </li>
+            <li class="project-nav-item project-dropdown project-lang_li project-lang_li-ar lang_li">
+              <a
+                class="project-nav-link project-dropdown-toggle project-nav-link-ar"
+                href="#"
+                id="project-languageDropdown"
+                role="button"
+                onclick="projectToggleLanguageDropdown()"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                اللغة
+                <img src="./images/Vector.svg" alt="language-button" loading="lazy" title="language-button" />
+              </a>
+              <div class="project-dropdown-menu" id="project-languageDropdownMenu" aria-labelledby="project-languageDropdown">
+                <a class="project-dropdown-item" href="./carrers.html">English</a>
+                <a class="project-dropdown-item" href="./carrers-ar.html">عربي</a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+
+      </div>
+    </header>
+    <section class="carrers-parent">
+      <div class="parent">
+        <div class="job_head">
+          <span class="carrer_head">الوظائف</span>
+          <span class="carrer_head">الشاغرة</span>
+        </div>
+
+        <!-- Child Divs with Unique data-id -->
+        <div class="child child-ar job_box" data-id="8" onclick="expandDiv(8)">
+          <span class="job_desc-ar">مهندس المكتب الفني</span>
+          <div class="job_prop-ar">
+            <span class="job_prop_child1-ar">المستوى المتوسط</span>
+            <span class="job_prop_child2-ar" id="govrnar">القاهرة</span>
+            <span class="job_prop_child3-ar">مصر</span>
+          </div>
+          <span class="job_desc2-ar">واحدة من شركات البناء الرائدة في مصر، تبحث عن مهندس مكتب فني ذو خبرة ومهارة عالية للانضمام إلى فريقنا.</span>
+        </div>
+
+        <div class="child child-ar" data-id="9" onclick="expandDiv(9)">
+          <span class="job_desc-ar">محاسب تكاليف</span>
+          <div class="job_prop-ar">
+            <span class="job_prop_child1-ar">خبير</span>
+            <span class="job_prop_child2-ar" id="govrnar">القاهرة</span>
+            <span class="job_prop_child3-ar" >مصر</span>
+          </div>
+          <span class="job_desc2-ar">واحدة من شركات البناء الرائدة في مصر، تبحث عن محاسب تكاليف ذو خبرة ومهارة عالية للانضمام إلى فريقنا.</span>
+        </div>
+
+        <div class="child child-ar" data-id="10" onclick="expandDiv(10)">
+          <span class="job_desc-ar"> محاسب</span>
+          <div class="job_prop-ar">
+            <span class="job_prop_child1-ar">المستوي المتوسط</span>
+            <span class="job_prop_child2-ar" id="govrnar">القاهرة</span>
+            <span class="job_prop_child3-ar">مصر</span>
+          </div>
+          <span class="job_desc2-ar">شركة مقاولات تبحث عن محاسب ذي خبرة وكفاءة عالية للانضمام إلى فريقها. سيكون المحاسب مسؤولاً عن إدارة الحسابات المالية، والتعامل مع الجهات الحكومية، وضمان الامتثال للقوانين واللوائح المالية.</span>
+        </div>
+
+        <!-- <div class="child" data-id="11" onclick="expandDiv(11)">
+          <span class="job_desc-ar">مدير المشروعات</span>
+          <div class="job_prop-ar">
+            <span class="job_prop_child1-ar">خبير</span>
+            <span class="job_prop_child2-ar">الأقصر</span>
+            <span class="job_prop_child3-ar">مصر</span>
+          </div>
+          <span class="job_desc2-ar">وصف الوظيفة 4 يظهر هنا.</span>
+        </div>
+
+        <div class="child" data-id="12" onclick="expandDiv(12)">
+          <span class="job_desc-ar">أخصائي التسويق</span>
+          <div class="job_prop-ar">
+            <span class="job_prop_child1-ar">المستوى المتوسط</span>
+            <span class="job_prop_child2-ar">أسوان</span>
+            <span class="job_prop_child3-ar">مصر</span>
+          </div>
+          <span class="job_desc2-ar">وصف الوظيفة 5 يظهر هنا.</span>
+        </div>
+
+        <div class="child" data-id="13" onclick="expandDiv(13)">
+          <span class="job_desc-ar">دعم فني</span>
+          <div class="job_prop-ar">
+            <span class="job_prop_child1-ar">مبتداء</span>
+            <span class="job_prop_child2-ar">بورسعيد</span>
+            <span class="job_prop_child3-ar">مصر</span>
+          </div>
+          <span class="job_desc2-ar">وصف الوظيفة 6 يظهر هنا.</span>
+        </div>
+
+        <div class="child" data-id="14" onclick="expandDiv(14)">
+          <span class="job_desc-ar">مدير المبيعات</span>
+          <div class="job_prop-ar">
+            <span class="job_prop_child1-ar">المستوى المتوسط</span>
+            <span class="job_prop_child2-ar">السويس</span>
+            <span class="job_prop_child3-ar">مصر</span>
+          </div>
+          <span class="job_desc2-ar">وصف الوظيفة 7 يظهر هنا.</span>
+        </div> -->
+
+        <!-- Pop-up Structure -->
+        <div class="popout popout-ar" id="popout">
+          <button class="close-btn" onclick="closePopout()">×</button>
+          <div class="popup popup-ar">
+            <span class="pop_child1 job_desc">مسمى وظيفي</span>
+            <div class="job_prop pop_prop pop_prop_ar">
+              <span class="job_prop_child1">المستوي</span>
+              <span class="job_prop_child2">الموقع</span>
+              <span class="job_prop_child3">المدينة</span>
+            </div>
+            <span class="pop_child2">المسؤولية الأساسية:</span>
+            <span class="pop_child3 pop_child3_ar">وصف الوظيفة يظهر هنا.</span>
+            <ul class="pop_ul pop_ul_ar">
+              <li>المسمى الوظيفي:</li>
+              <li>مواصفة 1</li>
+              <li>مواصفة 2</li>
+            </ul>
+            <ul class="qualifications_ul qualifications_ul_ar">
+              <li>المسمى الوظيفي:</li>
+              <li>مواصفة 1</li>
+              <li>مواصفة 2</li>
+            </ul>
+            <span class="pop_child4">نوع التوظيف:</span>
+            <span class="pop_child5">دوام كامل</span>
+            <span class="pop_child4">نوع مكان العمل:</span>
+            <span class="pop_child5">هجين</span>
+            <span class="pop_child4">المرتيب:</span>
+            <span class="pop_child5">يعتمد على الخبرة والمهارات</span>
+            <span class="pop_child4">الخبرة المطلوبة:</span>
+            <span class="pop_child5">الحد الأدنى 3 سنوات</span>
+            <span class="pop_child4">مكان العمل:</span>
+            <span class="pop_child5">القاهرة، مصر</span>
+            <a href="#form" class="pop_child6">تقدم الآن</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="form-sec" id="form">
+      <span>دعونا نعمل معا</span>
+      <span>سواء كنتَ جديدًا أو محترفًا ذا خبرة، استكشف وظائف حراء للحصول على فرص للنمو والتعلم والقيادة.</span>
+
+      <form action="https://formspree.io/f/xnnpopnj"
+      method="POST" enctype="multipart/form-data">
+        <div class="form-parent">
+          <div class="form1">
+            <input class="form-ar" type="text" name="name" id="name" placeholder="الأسم" required/>
+            <input class="form-ar" type="email" name="email" id="email" placeholder="البريد الإلكتروني@example.com" required/>
+            <!-- File input wrapper -->
+            <div class="file-upload-wrapper">
+              <input type="file" name="file" id="file" class="file-upload" required/>
+              <button type="button" class="custom-file-button form-ar" onclick="document.getElementById('file').click()">أختار ملف</button>
+              <div class="file-name form-ar">لم يتم اختيار أي ملف</div>
+            </div>
+          </div>
+          <div class="form2">
+            <input class="form-ar" type="text" name="title" id="title" placeholder="موضوع" required/>
+            <input class="form-ar" type="text" name="description" id="description" placeholder="رسالة" required/>
+          </div>
+        </div>
+        <input type="submit" value="Submit" class="submit-it" />
+      </form>
+    </section>
+    <footer>
+      <img src="./images/heraa logo white-02 opacity 63.svg" alt="herra-logo" loading="lazy" />
+
+      <div class="footer_child">
+        <div class="footer1">
+          <span>رقم الهاتف</span>
+          <a href="tel:+201223714570">+201223714570</a>
+          <span>الأيميل</span>
+          <a href="mailto:info@heraaconstruction.com">info@heraaconstruction.com</a>
+          <span>العنوان</span>
+          <a
+            href="https://www.google.com/maps/search/?api=1&query=30.00908875035226,31.282815705291846"
+            target="_blank"
+          >
+          قطعة رقم 2058، المنطقة الأولى، الهضبة الوسطى، المقطم، القاهرة، مصر
+          </a>
+        </div>
+
+        <div class="footer_special">
+          <span>روابط</span>
+          <div class="footer_child2">
+            <div class="footer_child3">
+              <a href="./index-ar.html">الرئيسة</a>
+              <a href="./index-ar.html#about">من نحن</a>
+              <a href="./index-ar.html#contact-us">تواصل معانا</a>
+              <a href="./index-ar.html#Services">خدماتنا</a>
+            </div>
+            <div class="footer_child3">
+              <a href="./index-ar.html#clients">عملائنا</a>
+              <a href="./projects-index -ar.html">المشاريع</a>
+              <a href="./carrers-ar.html">الوظائف</a>
+              <a href="./index-ar.html#press">الصحافة و الأعلام</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer2">
+        <span>روابط</span>
+        <a href="./index-ar.html">الرئيسة</a>
+        <a href="./index-ar.html#about">من نحن</a>
+        <a href="./index-ar.html#contact-us">تواصل معانا</a>
+        <a href="./index-ar.html#Services">خدماتنا</a>
+        <a href="./index-ar.html#clients">عملائنا</a>
+        <a href="./projects-index -ar.html">المشاريع</a>
+        <a href="./carrers-ar.html">الوظائف</a>
+        <a href="./index-ar.html#press">الصحافة و الاعلام</a>
+      </div>
+    </footer>
+    <div class="overlay" id="overlay"></div>
+    <script src="./script.js"></script>
+  </body>
+</html>

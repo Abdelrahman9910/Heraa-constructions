@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="./images/Group 1.svg" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Heraa Projects</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="projects-body">
+    <header id="home" class="projects-header">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <nav class="side_navbar">
+            <button class="hamburger" onclick="toggleSideNav()">
+              &#9776;<span>Menu</span>
+            </button>
+            <div class="logo">
+              <img
+                src="./images/Group 1.svg"
+                alt="herra Logo"
+                loading="lazy"
+                title="Herra logo"
+              />
+            </div>
+            <div class="language-dropdown">
+              <img
+                loading="lazy"
+                src="./images/Vector.svg"
+                alt="Language Icon"
+                class="language-icon"
+                title="language-icon"
+              />
+              <button
+                class="language-button"
+                onclick="toggleLanguageDropdown()"
+                title="language-button"
+              >
+                Lang
+              </button>
+              <div class="dropdown-content" id="customLanguageDropdown">
+                <a href="./projects-index.html">English</a>
+                <a href="./projects-index -ar.html">عربي</a>
+              </div>
+            </div>
+          </nav>
+          <div class="side-nav" id="sideNav">
+            <a
+              href="javascript:void(0)"
+              class="close-btn"
+              onclick="toggleSideNav()"
+              >&times;</a
+            >
+            <a href="./index.html#home">Home</a>
+            <a href="./index.html#Services">Services</a>
+            <a href="./index.html#about">About us</a>
+            <a href="./index.html#press">Press &amp; News</a>
+            <a href="./projects-index.html">Projects</a>
+            <a href="./carrers.html">Careers</a>
+            <a href="./index.html#contact-us">Contact Us</a>
+          </div>
+  
+          <nav id="custom-nav">
+            <ul>
+              <li>
+                <a href="./index.html" target="_self" rel="noopener noreferrer"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./index.html#Services"
+                  class="nav_name"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./index.html#about"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./index.html#press"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  >Press &amp; News</a
+                >
+              </li>
+              <li>
+                <img
+                  src="./images/Group 1.svg"
+                  alt=""
+                  class="herra-logo"
+                  loading="lazy"
+                  title="herra-logo"
+                />
+              </li>
+              <li>
+                <a
+                  href="./projects-index.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Projects</a
+                >
+              </li>
+              <li>
+                <a href="./carrers.html" target="_blank" rel="noopener noreferrer"
+                  >Careers</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./index.html#contact-us"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  >Contact Us</a
+                >
+              </li>
+              <li
+                class="project-nav-item project-dropdown project-lang_li lang_li"
+              >
+                <a
+                  class="project-nav-link project-dropdown-toggle"
+                  href="#"
+                  id="project-languageDropdown"
+                  role="button"
+                  onclick="projectToggleLanguageDropdown()"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Language
+                  <img
+                    src="./images/Vector.svg"
+                    alt="language-button"
+                    loading="lazy"
+                    title="language-button"
+                  />
+                </a>
+                <div
+                  class="project-dropdown-menu"
+                  id="project-languageDropdownMenu"
+                  aria-labelledby="project-languageDropdown"
+                >
+                  <a class="project-dropdown-item" href="./projects-index.html"
+                    >English</a
+                  >
+                  <a class="project-dropdown-item" href="./projects-index -ar.html"
+                    >عربي</a
+                  >
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <span class="projects-text">Our Projects</span>
+      </header>
+      <section class="projects-alignment">
+            <div class="projects-alignment1"><span class="carrer_head">Featured</span>
+              <span class="carrer_head">Projects</span></div>
+        <div class="portfolio">
+          <!-- Project 1 -->
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img src="./images/IMG_7873.webp" alt="Heraa construction project Fish farm" loading="lazy" />
+              <div class="overlay-projects">
+                <span class="project-name"
+                  >Fish farms project in Kafr El-Sheikh</span
+                >
+                <a
+                  href="./projects.html#fish"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="Read more about [topic]"
+                  >Read More</a
+                >
+              </div>
+            </a>
+          </div>
+  
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img src="./images/بئر العبد2.JPG" alt="Heraa construction project bir-albd" loading="lazy" />
+              <div class="overlay-projects">
+                <span class="project-name"
+                  >Reclamation of six thousand acres in the city of Biral-Abd</span>
+                <a
+                  href="./projects.html#Biral-Abd"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="Read more about [topic]"
+                  >Read More</a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img src="./images/1.jpeg" alt="Heraa construction project abu-simple temple" loading="lazy" />
+              <div class="overlay-projects">
+                <span class="project-name"
+                  >The World Cultural Center in Abu Simbel</span
+                >
+                <a
+                  href="./projects.html#abu-simple"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="Read more about [topic]"
+                  >Read More</a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img src="./images/2قنا.jpg" alt="Heraa construction project qena culture palace" loading="lazy" />
+              <div class="overlay-projects">
+                <span class="project-name"
+                  >Theater and Palace of Culture Qena</span
+                >
+                <a
+                  href="./projects.html#qena"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="Read more about [topic]"
+                  >Read More</a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img src="./images/0.jpeg" alt="Heraa construction project musem of island and civilizational" loading="lazy" />
+              <div class="overlay-projects">
+                <span class="project-name"
+                  >Museum of Island and Civilization</span
+                >
+                <a
+                  href="./projects.html#island"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="Read more about [topic]"
+                  >Read More</a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/3الفن الحديث.jpeg"
+                alt="Heraa construction project musem of modern-art"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name">Museum of Modern Art</span>
+                <a
+                  href="./projects.html#modern-art"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="Read more about [topic]"
+                  >Read More</a
+                >
+              </div>
+            </a>
+          </div>
+  
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img src="./images/راتب صديق.PNG" alt="Heraa construction project musem of rateb Sediq" loading="lazy" />
+              <div class="overlay-projects">
+                <span class="project-name">Museum of Rateb Sediq</span>
+                <a
+                  href="./projects.html#rateb"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="Read more about [topic]"
+                  >Read More</a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/ضرائب بورسعيد.jpeg"
+                alt="Heraa construction project port said tax complex"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name">Port Said Taxes Complex</span>
+                <a
+                  href="./projects.html#port-said"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="Read more about [topic]"
+                  >Read More</a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/نادي الشرطة.jpg"
+                alt="Heraa construction project police-club"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name"
+                  >Police Officers' Club New Building</span
+                >
+                <a
+                  href="./projects.html#police-club"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="Read more about [topic]"
+                  >Read More</a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img src="./images/طنطا.jpg" alt="Heraa construction project Theater of tanta" loading="lazy" />
+              <div class="overlay-projects">
+                <span class="project-name">National Theatre of Tanta</span>
+                <a
+                  href="./projects.html#tanta"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="Read more about [topic]"
+                  >Read More</a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img src="./images/وادي واتير.jpg" alt="Heraa construction project wadi watir dams and lakes" loading="lazy" />
+              <div class="overlay-projects">
+                <span class="project-name">Dams and lakes in Wadi Watir</span>
+                <a
+                  href="./projects.html#wadi-watir"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="Read more about [topic]"
+                  >Read More</a
+                >
+              </div>
+            </a>
+          </div>
+  
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/ضرائب السويس.jpeg"
+                alt="Heraa construction project Suez tax complex"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name">Suez Taxes Complex</span>
+                <a
+                  href="./projects.html#suez-tax"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="Read more about [topic]"
+                  >Read More</a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/مديرية امن السويس.jpg"
+                alt="Heraa construction project beni suef Directorate"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name">Beni Suef Security Directorate</span>
+                <a
+                  href="./projects.html#beni-suef"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="Read more about [topic]"
+                  >Read More</a
+                >
+              </div>
+            </a>
+          </div>
+          <!-- <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/مدرية امن الجمالية.jpg"
+                alt="Fish farm"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name">Gamaleya Police Complex</span>
+                <a
+                  href="./projects.html#gamaleya"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  >Read More</a
+                >
+              </div>
+            </a>
+          </div> -->
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/gamal abd el nasser musem6.png"
+                alt="Heraa construction project Musem of gamal abd el nasser"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name"
+                  >Museum of Leader Gamal Abdel Nasser</span
+                >
+                <a
+                  href="./projects.html#gamal"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="Read more about [topic]"
+                  >Read More</a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/المركز الدولي للكتاب.png"
+                alt="Heraa construction project bookd center"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name">International Book Centre</span>
+                <a
+                  href="./projects.html#book-center"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="Read more about [topic]"
+                  >Read More</a
+                >
+              </div>
+            </a>
+          </div>
+  
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/مجمع 15 مايو.PNG"
+                alt="Heraa construction project Arts complex in 15 of may"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name">May 15 Arts Complex</span>
+                <a
+                  href="./projects.html#Mayo"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="Read more about [topic]"
+                  >Read More</a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/مجمع ضرائب سفاجا.PNG"
+                alt="Heraa construction project safaga tax complex"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name">Safaga Tax Complex</span>
+                <a
+                  href="./projects.html#safaga"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="Read more about [topic]"
+                  >Read More</a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/قصر ثقافة الاسمعليلة.jpeg"
+                alt="Heraa construction project Ismailia cultural palace"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name">Ismailia Culture Palace</span>
+                <a
+                  href="./projects.html#Ismailia"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="Read more about [topic]"
+                  >Read More</a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/ضرائب مرسي علم.jpg"
+                alt="Heraa construction project marsa allam taxses"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name">Marsa Alam taxes</span>
+                <a
+                  href="./projects.html#Marsaalam"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="Read more about [topic]"
+                  >Read More</a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img src="./images/موط.jpeg" alt="Heraa construction project mut cultural palace" loading="lazy" />
+              <div class="overlay-projects">
+                <span class="project-name">Mut Culture Palace</span>
+                <a
+                  href="./projects.html#mut"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="Read more about [topic]"
+                  >Read More</a
+                >
+              </div>
+            </a>
+          </div>
+  
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/حاجر العديسات.jpeg"
+                alt="Heraa construction project Hajer Al-Adaysat cultural palace"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name">Hajer Al-Adaysat Culture House</span>
+                <a
+                  href="./projects.html#Hajer-house"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="Read more about [topic]"
+                  >Read More</a
+                >
+              </div>
+            </a>
+          </div>
+          <!-- <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img src="./images/حوض الرمال.png" alt="Fish farm" loading="lazy" />
+              <div class="overlay-projects">
+                <span class="project-name">Sand Basin Culture House</span>
+                <a
+                  href="./projects.html#sand-basin"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  >Read More</a
+                >
+              </div>
+            </a>
+          </div> -->
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/قصر ثقافة هيبس.jpeg"
+                alt="Heraa construction project hibs cinema"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name">Hibs Cinema</span>
+                <a
+                  href="./projects-index.html#hibs"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="Read more about [topic]"
+                  >Read More</a
+                >
+              </div>
+            </a>
+          </div>
+          <!-- <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/قصر ثقافة رأس حردبة.jpeg"
+                alt="Fish farm"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name">Ras Hadaraba Culture House</span>
+                <a
+                  href="./projects.html#Ras-Hadaraba"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  >Read More</a
+                >
+              </div>
+            </a>
+          </div> -->
+  
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/مشيخة الازهر.jpg"
+                alt="Heraa construction project Sheikhdom of Al-Azhar"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name"
+                  >Development of Sheikhdom of Al-Azhar</span
+                >
+                <a
+                  href="./projects.html#el-azhar"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="Read more about [topic]"
+                  >Read More</a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/محطة مياة هليوبلس.jpeg"
+                alt="Heraa construction project water treatment station in new heliopls"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name"
+                  >The main treatment station in New Heliopolis</span
+                >
+                <a
+                  href="./projects.html#heliopolis"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="Read more about [topic]"
+                  >Read More</a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/وادي النطرون.jpeg"
+                alt="Heraa construction project wadi-elnatron cultural palace"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name">Wadi El-Natroun Culture Palace</span>
+                <a
+                  href="./projects.html#wadi-natroun"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="Read more about [topic]"
+                  >Read More</a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/ابو المطامير.JPG"
+                alt="Heraa construction project abu al matamer cultural palace"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name">Abu Al Matamir Culture Palace</span>
+                <a
+                  href="./projects.html#abo-matamir"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="Read more about [topic]"
+                  >Read More</a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/ضرائب السيدة.png"
+                alt="Heraa construction project Alsayida Zaynab taxes"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name">Alsayida Zaynab Taxes</span>
+                <a
+                  href="./projects.html#alsyda"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="Read more about [topic]"
+                  >Read More</a
+                >
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <img
+          src="./images/heraa logo white-02 opacity 63.svg"
+          alt="herra-logo"
+          loading="lazy"
+          title="herra-logo"
+        />
+  
+        <div class="footer_child">
+          <div class="footer1">
+            <span>Phone Number</span>
+            <a href="tel:+01223714570">+201223714570</a>
+            <span>Email</span>
+            <a href="mailto:info@heraaconstruction.com">info@heraaconstruction.com</a>
+            <span>Address</span>
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=30.00908875035226,31.282815705291846"
+              target="_blank"
+            >
+              Plot 2058, First District, Middle <br />
+              Plateau, El-Mokattam, Cairo, Egypt
+            </a>
+          </div>
+  
+          <div class="footer_special">
+            <span>Quick Links</span>
+            <div class="footer_child2">
+              <div class="footer_child3">
+                <a href="./index.html#home">Home</a>
+                <a href="./index.html#about">About Us</a>
+                <a href="./index.html#contact-us">Contact Us</a>
+                <a href="./index.html#Service">Services</a>
+              </div>
+              <div class="footer_child3">
+                <a href="./index.html#clients">Our Clients</a>
+                <a href="./projects-index.html">Projects</a>
+                <a href="./carrers.html">Carrers</a>
+                <a href="./index.html#press">Press &amp; News</a>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="footer2">
+          <span>Quick Links</span>
+          <a href="./index.html#home">Home</a>
+          <a href="./index.html#about">About Us</a>
+          <a href="./index.html#contact-us">Contact Us</a>
+          <a href="./index.html#Services">Services</a>
+          <a href="./index.html#clients">Our Clients</a>
+          <a href="./projects-index.html">Projects</a>
+          <a href="./carrers.html">Carrers</a>
+          <a href="./index.html#press">Press &amp; News</a>
+        </div>
+      </footer>
+      <div class="overlay" id="overlay"></div>
+
+<script src="./script.js"></script>    
+</body>
+</html>

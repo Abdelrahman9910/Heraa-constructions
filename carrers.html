@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/Group 1.svg" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+      rel="stylesheet"/>
+    <title>Careers</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="careers-body">
+    <header id="home" class="projects-header carrer-header">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <nav class="side_navbar">
+          <button class="hamburger" onclick="toggleSideNav()">
+            &#9776;<span>Menu</span>
+          </button>
+          <div class="logo">
+            <img
+              src="./images/Group 1.svg"
+              alt="herra Logo"
+              loading="lazy"
+              title="Herra logo"
+            />
+          </div>
+          <div class="language-dropdown">
+            <img
+              loading="lazy"
+              src="./images/Vector.svg"
+              alt="Language Icon"
+              class="language-icon"
+              title="language-icon"
+            />
+            <button
+              class="language-button"
+              onclick="toggleLanguageDropdown()"
+              title="language-button"
+            >
+              Lang
+            </button>
+            <div class="dropdown-content" id="customLanguageDropdown">
+              <a href="./carrers.html">English</a>
+              <a href="./carrers-ar.html">عربي</a>
+            </div>
+          </div>
+        </nav>
+        <div class="side-nav" id="sideNav">
+          <a
+            href="javascript:void(0)"
+            class="close-btn"
+            onclick="toggleSideNav()"
+            >&times;</a
+          >
+          <a href="./index.html#home">Home</a>
+          <a href="./index.html#Services">Services</a>
+          <a href="./index.html#about">About us</a>
+          <a href="./index.html#press">Press &amp; News</a>
+          <a href="./projects-index.html">Projects</a>
+          <a href="./carrers.html">Careers</a>
+          <a href="./index.html#contact-us">Contact Us</a>
+        </div>
+
+        <nav id="custom-nav">
+          <ul>
+            <li>
+              <a href="./index.html" target="_self" rel="noopener noreferrer"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="./index.html#Services"
+                class="nav_name"
+                target="_self"
+                rel="noopener noreferrer"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a
+                href="./index.html#about"
+                target="_self"
+                rel="noopener noreferrer"
+                >About Us</a
+              >
+            </li>
+            <li>
+              <a
+                href="./index.html#press"
+                target="_self"
+                rel="noopener noreferrer"
+                >Press &amp; News</a
+              >
+            </li>
+            <li>
+              <img
+                src="./images/Group 1.svg"
+                alt=""
+                class="herra-logo"
+                loading="lazy"
+                title="herra-logo"
+              />
+            </li>
+            <li>
+              <a
+                href="./projects-index.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a href="./carrers.html" target="_blank" rel="noopener noreferrer"
+                >Careers</a
+              >
+            </li>
+            <li>
+              <a
+                href="./index.html#contact-us"
+                target="_self"
+                rel="noopener noreferrer"
+                >Contact Us</a
+              >
+            </li>
+            <li
+              class="project-nav-item project-dropdown project-lang_li lang_li"
+            >
+              <a
+                class="project-nav-link project-dropdown-toggle"
+                href="#"
+                id="project-languageDropdown"
+                role="button"
+                onclick="projectToggleLanguageDropdown()"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Language
+                <img
+                  src="./images/Vector.svg"
+                  alt="language-button"
+                  loading="lazy"
+                  title="language-button"
+                />
+              </a>
+              <div
+                class="project-dropdown-menu"
+                id="project-languageDropdownMenu"
+                aria-labelledby="project-languageDropdown"
+              >
+                <a class="project-dropdown-item" href="./carrers.html"
+                  >English</a
+                >
+                <a class="project-dropdown-item" href="./carrers-ar.html"
+                  >عربي</a
+                >
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <span class="team">Join Our Team</span>
+    </header>
+    <section class="carrers-parent">
+      <div class="parent">
+        <div class="job_head">
+          <span class="carrer_head">Open</span>
+          <span class="carrer_head">Vacancies</span>
+        </div>
+
+        <!-- Child Divs with Unique data-id -->
+        <div class="child job_box" data-id="1" onclick="expandDiv(1)">
+          <span class="job_desc"> Technical Office Engineer</span>
+          <div class="job_prop">
+            <span class="job_prop_child1">Mid-level</span>
+            <span class="job_prop_child2">Cairo</span>
+            <span class="job_prop_child3">Egypt</span>
+          </div>
+          <span class="job_desc2"> One of Egypt's leading construction companies, is seeking an experienced and highly skilled Technical Office Engineer to join our team.</span>
+        </div>
+
+        <div class="child" data-id="2" onclick="expandDiv(2)">
+          <span class="job_desc">Cost Accountant</span>
+          <div class="job_prop">
+            <span class="job_prop_child1">Senior</span>
+            <span class="job_prop_child2">Cairo</span>
+            <span class="job_prop_child3">Egypt</span>
+          </div>
+          <span class="job_desc2">One of Egypt's leading construction companies, is seeking an experienced and highly skilled Cost Accountant to join our team.</span>
+        </div>
+
+        <div class="child" data-id="3" onclick="expandDiv(3)">
+          <span class="job_desc">Accountant</span>
+          <div class="job_prop">
+            <span class="job_prop_child1">Mid-level</span>
+            <span class="job_prop_child2">Cairo</span>
+            <span class="job_prop_child3">Egypt</span>
+          </div>
+          <span class="job_desc2">One of Egypt's leading construction companies, is seeking an experienced and highly skilled Accountant to join our team.</span>
+        </div>
+
+        <!-- <div class="child" data-id="4" onclick="expandDiv(4)">
+          <span class="job_desc">Project Manager</span>
+          <div class="job_prop">
+            <span class="job_prop_child1">Senior</span>
+            <span class="job_prop_child2">Luxor</span>
+            <span class="job_prop_child3">Egypt</span>
+          </div>
+          <span class="job_desc2">Job 4 description goes here.</span>
+        </div>
+
+        <div class="child" data-id="5" onclick="expandDiv(5)">
+          <span class="job_desc">Marketing Specialist</span>
+          <div class="job_prop">
+            <span class="job_prop_child1">Mid-level</span>
+            <span class="job_prop_child2">Aswan</span>
+            <span class="job_prop_child3">Egypt</span>
+          </div>
+          <span class="job_desc2">Job 5 description goes here.</span>
+        </div>
+
+        <div class="child" data-id="6" onclick="expandDiv(6)">
+          <span class="job_desc">Customer Support</span>
+          <div class="job_prop">
+            <span class="job_prop_child1">Entry-level</span>
+            <span class="job_prop_child2">Port Said</span>
+            <span class="job_prop_child3">Egypt</span>
+          </div>
+          <span class="job_desc2">Job 6 description goes here.</span>
+        </div>
+
+        <div class="child" data-id="7" onclick="expandDiv(7)">
+          <span class="job_desc">Sales Executive</span>
+          <div class="job_prop">
+            <span class="job_prop_child1">Mid-level</span>
+            <span class="job_prop_child2">Suez</span>
+            <span class="job_prop_child3">Egypt</span>
+          </div>
+          <span class="job_desc2">Job 7 description goes here.</span>
+        </div> -->
+
+        <!-- Pop-up Structure -->
+        <div class="popout" id="popout">
+          <button class="close-btn" onclick="closePopout()">×</button>
+          <div class="popup">
+            <span class="pop_child1 job_desc">Job Title</span>
+            <div class="job_prop pop_prop">
+              <span class="job_prop_child1">Level</span>
+              <span class="job_prop_child2">Location</span>
+              <span class="job_prop_child3">Country</span>
+            </div>
+            <span class="pop_child2">Primary Responsibility: </span>
+            <span class="pop_child3">Job description goes here.</span>
+            <ul class="pop_ul">
+              <li>Job Specification:</li>
+              <li>Specification 1</li>
+              <li>Specification 2</li>
+            </ul>
+            <ul class="qualifications_ul">
+              <li>Job qualifications:</li>
+              <li>Specification 1</li>
+              <li>Specification 2</li>
+            </ul>
+            <span class="pop_child4">Employment Type:</span>
+            <span class="pop_child5">Full-time</span>
+            <span class="pop_child4">Work place Type:</span>
+            <span class="pop_child5">Hybrid</span>
+            <span class="pop_child4">Salary:</span>
+            <span class="pop_child5">Depends on experience and skills</span>
+            <span class="pop_child4">Experience Required:</span>
+            <span class="pop_child5">Minimum 3 Years</span>
+            <span class="pop_child4">Job Location:</span>
+            <span class="pop_child5">Cairo, Egypt</span>
+            <a href="#form" class="pop_child6">apply now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="form-sec" id="form">
+      <span>Let's Work Together</span>
+      <span
+        >Whether you’re a fresher or an experienced professional, explore Heraa
+        careers for <br />
+        opportunities to grow, learn, and lead.</span
+      >
+
+      <form  action="https://formspree.io/f/xnnpopnj"
+      method="POST" enctype="multipart/form-data">
+        <input type="hidden" name="access_key" value="a3959463-8708-468d-b7d8-b7194b87f20d">
+        <input type="checkbox" name="botcheck" style="display: none;">
+        <input type="text" name="honeypot" style="display:none">
+        <input type="hidden" name="from_name" value="Your Website Name">
+        <div class="form-parent">
+          <div class="form1">
+            <input type="text" name="name" id="name" placeholder="Name" required/>
+            <input type="email" name="email" id="email" placeholder="Email@example.com" required />
+            <!-- File input wrapper -->
+            <div class="file-upload-wrapper">
+              <input type="file" name="file" id="file" class="file-upload" required/>
+              <button type="button" class="custom-file-button" onclick="document.getElementById('file').click()">Choose File</button>
+              <div class="file-name">No file chosen</div>
+            </div>
+          </div>
+          <div class="form2">
+            <input type="text" name="title" id="title" placeholder="Job Title" required />
+            <textarea name="description" id="description" placeholder="Cover Letter"></textarea>
+          </div>
+        </div>
+        <input type="submit" value="Submit" class="submit-it" />
+      </form>
+    </section>
+    <footer>
+      <img
+        src="./images/heraa logo white-02 opacity 63.svg"
+        alt="herra-logo"
+        loading="lazy"
+        title="herra-logo"
+      />
+
+      <div class="footer_child">
+        <div class="footer1">
+          <span>Phone Number</span>
+          <a href="tel:+01223714570">+201223714570</a>
+          <span>Email</span>
+          <a href="mailto:info@heraaconstruction.com">info@heraaconstruction.com</a>
+          <span>Address</span>
+          <a
+            href="https://www.google.com/maps/search/?api=1&query=30.00908875035226,31.282815705291846"
+            target="_blank"
+          >
+            Plot 2058, First District, Middle <br />
+            Plateau, El-Mokattam, Cairo, Egypt
+          </a>
+        </div>
+
+        <div class="footer_special">
+          <span>Quick Links</span>
+          <div class="footer_child2">
+            <div class="footer_child3">
+              <a href="./index.html#home">Home</a>
+              <a href="./index.html#about">About Us</a>
+              <a href="./index.html#contact-us">Contact Us</a>
+              <a href="./index.html#Service">Services</a>
+            </div>
+            <div class="footer_child3">
+              <a href="./index.html#clients">Our Clients</a>
+              <a href="./projects-index.html">Projects</a>
+              <a href="./carrers.html">Carrers</a>
+              <a href="./index.html#press">Press &amp; News</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer2">
+        <span>Quick Links</span>
+        <a href="./index.html#home">Home</a>
+        <a href="./index.html#about">About Us</a>
+        <a href="./index.html#contact-us">Contact Us</a>
+        <a href="./index.html#Services">Services</a>
+        <a href="./index.html#clients">Our Clients</a>
+        <a href="./projects-index.html">Projects</a>
+        <a href="./carrers.html">Carrers</a>
+        <a href="./index.html#press">Press &amp; News</a>
+      </div>
+    </footer>
+    <div class="overlay" id="overlay"></div>
+    <script src="./script.js"></script>
+  </body>
+</html>

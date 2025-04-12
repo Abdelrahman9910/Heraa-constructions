@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="./images/Group 1.svg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css" />
+        <title>المشاريع</title>
+</head>
+<body class="projects-body">
+    <header id="home" class="projects-header">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel">
+          <nav class="side_navbar">
+            <button class="hamburger" onclick="toggleSideNav()">
+              &#9776;<span>الرئيسة</span>
+            </button>
+            <div class="logo">
+              <img src="./images/Group 1.svg" alt="herra Logo" loading="lazy" title="Herra logo"/>
+            </div>
+            <div class="language-dropdown">
+              <img loading="lazy"
+                src="./images/Vector.svg"
+                alt="Language Icon"
+                class="language-icon"
+                title="language-icon"
+              />
+              <button class="language-button" onclick="toggleLanguageDropdown()" title="language-button">
+                اللغة
+              </button>
+              <div class="dropdown-content" id="customLanguageDropdown">
+                <a href="./projects-index.html">English</a>
+                <a href="./projects-index -ar.html">عربي</a>
+              </div>
+            </div>
+          </nav>
+          <div class="side-nav" id="sideNav">
+            <a
+              href="javascript:void(0)"
+              class="close-btn"
+              onclick="toggleSideNav()"
+              >&times;</a>
+            <a href="./index-ar.html#home">الرئيسة</a>
+            <a href="./index-ar.html#Services">الخدمات</a>
+            <a href="./index-ar.html#about">من نحن</a>
+            <a href="./index-ar.html#press">الصحافة والأخبار</a>
+            <a href="./projects-index -ar.html">مشاريع</a>
+            <a href="#">الوظائف</a>
+            <a href="./index-ar.html#contact-us">تواصل معانا</a>
+          </div>
+  
+          <nav id="custom-nav" class="custom-nav-pr-ar">
+            <ul>
+              <li>
+                <a href="./index-ar.html#home" target="_self" rel="noopener noreferrer">الرئيسة</a>
+              </li>
+              <li>
+                <a
+                  href="./index-ar.html#Services"
+                  class="nav_name"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  >خدماتنا</a
+                >
+              </li>
+              <li>
+                <a href="./index-ar.html#about" target="_self" rel="noopener noreferrer"
+                  >من نحن</a
+                >
+              </li>
+              <li>
+                <a href="./index-ar.html#press" target="_self" rel="noopener noreferrer"
+                  >الصحافة &#38; الأعلام</a
+                >
+              </li>
+              <li><img src="./images/Group 1.svg" alt="" class="herra-logo" loading="lazy" title="herra-logo" /></li>
+              <li>
+                <a href="./projects-index -ar.html" target="_blank" rel="noopener noreferrer"
+                  >مشاريع</a
+                >
+              </li>
+              <li>
+                <a href="./carrers-ar.html" target="_blank" rel="noopener noreferrer"
+                  >الوظائف</a
+                >
+              </li>
+              <li>
+                <a href="./index-ar.html#contact-us" target="_self" rel="noopener noreferrer">تواصل معانا</a
+                >
+              </li>
+              <li class="project-nav-item project-dropdown project-lang_li project-lang_li-ar lang_li">
+                <a
+                  class="project-nav-link project-dropdown-toggle project-nav-link-ar"
+                  href="#"
+                  id="project-languageDropdown"
+                  role="button"
+                  onclick="projectToggleLanguageDropdown()"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  اللغة
+                  <img src="./images/Vector.svg" alt="language-button" loading="lazy" title="language-button" />
+                </a>
+                <div class="project-dropdown-menu" id="project-languageDropdownMenu" aria-labelledby="project-languageDropdown">
+                  <a class="project-dropdown-item" href="./projects-index.html">English</a>
+                  <a class="project-dropdown-item" href="./projects-index -ar.html">عربي</a>
+                </div>
+              </li>
+            </ul>
+          </nav>
+  
+        </div>
+        <span class="projects-text projects-text-ar">أهم مشاريعنا</span>
+      </header>
+      <section class="projects-alignment">
+        <div class="projects-alignment1"><span class="carrer_head">المشاريع</span>
+          <span class="carrer_head"> المميزة</span></div>
+        <div class="portfolio">
+          <!-- Project 1 -->
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img src="./images/IMG_7873.webp" alt="مشروع شركة حراء للمقولات بالمزارع السمكية بكفر الشيخ" loading="lazy" />
+              <div class="overlay-projects">
+                <span class="project-name"
+                  >المزرعة السمكية بكفر الشيخ</span
+                >
+                <a
+                  href="./project-ar.html#fish"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="أقراء المزيد عن [الموضوع]"
+                  >المزيد</a
+                >
+              </div>
+            </a>
+          </div>
+  
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img src="./images/بئر العبد2.JPG" alt="مشروع شركة حراء للمقولات استصلاح ستة آلاف فدان في مدينة بيرال عبد" loading="lazy" />
+              <div class="overlay-projects">
+                <span class="project-name"
+                  >استصلاح ستة آلاف فدان في مدينة بيرال عبد</span>
+                <a
+                  href="./project-ar.html#Biral-Abd"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="أقراء المزيد عن [الموضوع]"
+                  >المزيد</a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img src="./images/1.jpeg" alt="مشروع شركة حراء للمقولات المركز الثقافي العالمي في أبو سمبل" loading="lazy" />
+              <div class="overlay-projects">
+                <span class="project-name"
+                  >المركز الثقافي العالمي في أبو سمبل</span
+                >
+                <a
+                  href="./project-ar.html#abu-simple"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="أقراء المزيد عن [الموضوع]"
+                  >المزيد</a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img src="./images/2قنا.jpg" alt="مشروع شركة حراء للمقولات مسرح و قصر ثقافة قنا" loading="lazy" />
+              <div class="overlay-projects">
+                <span class="project-name"
+                  >مسرح وقصر ثقافة قنا</span
+                >
+                <a
+                  href="./project-ar.html#qena"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="أقراء المزيد عن [الموضوع]"
+                  >المزيد</a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img src="./images/0.jpeg" alt="مشروع شركة حراء للمقولات متحف الجزيرة و الحضارة"loading="lazy" />
+              <div class="overlay-projects">
+                <span class="project-name"
+                  >متحف الجزيرة والحضارة</span
+                >
+                <a
+                  href="./project-ar.html#island"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  >المزيد</a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/3الفن الحديث.jpeg"
+                alt="مشروع شركة حراء للمقولات متحف الفن الحديث"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name">متحف الفن الحديث</span>
+                <a
+                  href="./project-ar.html#modern-art"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="أقراء المزيد عن [الموضوع]"
+                  >المزيد</a
+                >
+              </div>
+            </a>
+          </div>
+  
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img src="./images/راتب صديق.PNG" alt="مشروع شركة حراء للمقولات متحف راتب صديق" loading="lazy" />
+              <div class="overlay-projects">
+                <span class="project-name">متحف راتب صديق</span>
+                <a
+                  href="./project-ar.html#rateb"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="أقراء المزيد عن [الموضوع]"
+                  >المزيد</a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/ضرائب بورسعيد.jpeg"
+                alt="مشروع شركة حراء للمقولات مجمع ضرائب بورسعيد"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name">مجمع ضرائب بورسعيد</span>
+                <a
+                  href="./project-ar.html#port-said"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="أقراء المزيد عن [الموضوع]"
+                  >المزيد</a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/نادي الشرطة.jpg"
+                alt="مشروع شركة حراء للمقولات مبني نادي الشرطة"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name"
+                  >المبنى الجديد لنادي ضباط الشرطة</span
+                >
+                <a
+                  href="./project-ar.html#police-club"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="أقراء المزيد عن [الموضوع]"
+                  >المزيد</a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img src="./images/طنطا.jpg" alt="مشروع شركة حراء للمقولات المسرح القومي بطنطا" loading="lazy" />
+              <div class="overlay-projects">
+                <span class="project-name">المسرح القومي بطنطا</span>
+                <a
+                  href="./project-ar.html#tanta"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="أقراء المزيد عن [الموضوع]"
+                  >المزيد</a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img src="./images/وادي واتير.jpg" alt="مشروع شركة حراء للمقولات السدود و البحيرات في وادى وتير" loading="lazy" />
+              <div class="overlay-projects">
+                <span class="project-name">السدود والبحيرات في وادي وتير</span>
+                <a
+                  href="./project-ar.html#wadi-watir"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="أقراء المزيد عن [الموضوع]"
+                  >المزيد</a
+                >
+              </div>
+            </a>
+          </div>
+  
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/ضرائب السويس.jpeg"
+                alt="مشروع شركة حراء للمقولات مجمع ضرائب السويس"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name">مجمع ضرائب السويس</span>
+                <a
+                  href="./project-ar.html#suez-tax"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="أقراء المزيد عن [الموضوع]"
+                  >المزيد</a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/مديرية امن السويس.jpg"
+                alt="مشروع شركة حراء للمقولات مديرية أ/ن بني سويف"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name">مديرية أمن بني سويف</span>
+                <a
+                  href="./project-ar.html#beni-suef"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="أقراء المزيد عن [الموضوع]"
+                  >المزيد</a
+                >
+              </div>
+            </a>
+          </div>
+          <!-- <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/مدرية امن الجمالية.jpg"
+                alt="Fish farm"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name">مجمع شرطة الجمالية</span>
+                <a
+                  href="./project-ar.html#gamaleya"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  >المزيد</a
+                >
+              </div>
+            </a>
+          </div> -->
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/gamal abd el nasser musem6.png"
+                alt="مشروع شركة حراء للمقولات متحف الزعيم جمال عبدالناصر"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name"
+                  >متحف الزعيم جمال عبد الناصر</span
+                >
+                <a
+                  href="./project-ar.html#gamal"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="أقراء المزيد عن [الموضوع]"
+                  >المزيد</a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/المركز الدولي للكتاب.png"
+                alt="مشروع شركة حراء للمقولات المركز الدولي للكتاب"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name">المركز الدولي للكتاب</span>
+                <a
+                  href="./project-ar.html#book-center"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="أقراء المزيد عن [الموضوع]"
+                  >المزيد</a
+                >
+              </div>
+            </a>
+          </div>
+  
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/مجمع 15 مايو.PNG"
+                alt="مشروع شركة حراء للمقولات مجمع 15 مايو للفنون"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name">مجمع 15 مايو للفنون</span>
+                <a
+                  href="./project-ar.html#Mayo"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="أقراء المزيد عن [الموضوع]"
+                  >المزيد</a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/مجمع ضرائب سفاجا.PNG"
+                alt="مشروع شركة حراء للمقولات مجمع ضرائب سفاجا"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name">مجمع ضرائب سفاجا</span>
+                <a
+                  href="./project-ar.html#safaga"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="أقراء المزيد عن [الموضوع]"
+                  >المزيد</a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/قصر ثقافة الاسمعليلة.jpeg"
+                alt="مشروع شركة حراء للمقولات قصر ثقافة الاسمعليلة"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name">قصر ثقافة الإسماعيلية</span>
+                <a
+                  href="./project-ar.html#Ismailia"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="أقراء المزيد عن [الموضوع]"
+                  >المزيد</a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/ضرائب مرسي علم.jpg"
+                alt="مشروع شركة حراء للمقولات ضرائب مرسى علم"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name">ضرائب مرسى علم</span>
+                <a
+                  href="./project-ar.html#Marsaalam"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  aria-label="أقراء المزيد عن [الموضوع]"
+                  class="project-link"
+                  >المزيد</a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img src="./images/موط.jpeg" alt="مشروع شركة حراء للمقولات قصر ثقافة موت" loading="lazy" />
+              <div class="overlay-projects">
+                <span class="project-name">قصر ثقافة موت</span>
+                <a
+                  href="./project-ar.html#mut"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="أقراء المزيد عن [الموضوع]"
+                  >المزيد</a
+                >
+              </div>
+            </a>
+          </div>
+  
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/حاجر العديسات.jpeg"
+                alt="مشروع شركة حراء للمقولات دار ثقافة هاجر العديسات"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name">دار ثقافة هاجر العديسات</span>
+                <a
+                  href="./project-ar.html#Hajer-house"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="أقراء المزيد عن [الموضوع]"
+                  >المزيد</a
+                >
+              </div>
+            </a>
+          </div>
+          <!-- <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img src="./images/حوض الرمال.png" alt="Fish farm" loading="lazy" />
+              <div class="overlay-projects">
+                <span class="project-name">بيت ثقافة حوض الرمل</span>
+                <a
+                  href="./project-ar.html#sand-basin"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  >المزيد</a
+                >
+              </div>
+            </a>
+          </div> -->
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/قصر ثقافة هيبس.jpeg"
+                alt="مشروع شركة حراء للمقولات سينما هيبس"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name">سينما هيبس</span>
+                <a
+                  href="./project-ar.html##hibs"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="أقراء المزيد عن [الموضوع]"
+                  >المزيد</a
+                >
+              </div>
+            </a>
+          </div>
+          <!-- <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/قصر ثقافة رأس حردبة.jpeg"
+                alt="Fish farm"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name">دار ثقافة رأس حضربة</span>
+                <a
+                  href="./project-ar.html#Ras-Hadaraba"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  >المزيد</a
+                >
+              </div>
+            </a>
+          </div> -->
+  
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/مشيخة الازهر.jpg"
+                alt="مشروع شركة حراء للمقولات بمشيخة الأزهر"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name"
+                  >تطور مشيخة الأزهر</span
+                >
+                <a
+                  href="./project-ar.html#el-azhar"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="أقراء المزيد عن [الموضوع]"
+                  >المزيد</a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/محطة مياة هليوبلس.jpeg"
+                alt="مشروع شركة حراء للمقولات محطة المعالجة الرئيسة في هليوبلس"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name"
+                  >محطة المعالجة الرئيسية في نيو هليوبوليس</span
+                >
+                <a
+                  href="./project-ar.html#heliopolis"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="أقراء المزيد عن [الموضوع]"
+                  >المزيد</a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/وادي النطرون.jpeg"
+                alt="مشروع شركة حراء للمقولات قصر ثقافة وادى النطرون"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name">قصر ثقافة وادى النطرون</span>
+                <a
+                  href="./project-ar.html#wadi-natroun"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="أقراء المزيد عن [الموضوع]"
+                  >المزيد</a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/ابو المطامير.JPG"
+                alt="مشروع شركة حراء للمقولات بقصر ثقافة أبو المطامير"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name">قصر ثقافة أبو المطامير</span>
+                <a
+                  href="./project-ar.html#abo-matamir"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="أقراء المزيد عن [الموضوع]"
+                  >المزيد</a
+                >
+              </div>
+            </a>
+          </div>
+          <div class="project-item">
+            <a href="#project1-details" class="project1-details">
+              <img
+                src="./images/ضرائب السيدة.png"
+                alt="مشروع شركة حراء للمقولات ضرائب السيدة زينب"
+                loading="lazy"
+              />
+              <div class="overlay-projects">
+                <span class="project-name">ضرائب السيدة زينب</span>
+                <a
+                  href="./project-ar.html#alsyda"
+                  target="_self"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="أقراء المزيد عن [الموضوع]"
+                  >المزيد</a
+                >
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <img src="./images/heraa logo white-02 opacity 63.svg" alt="herra-logo" loading="lazy" />
+  
+        <div class="footer_child">
+          <div class="footer1">
+            <span>رقم الهاتف</span>
+            <a href="tel:+01223714570">+201223714570</a>
+            <span>الأيميل</span>
+            <a href="mailto:info@heraaconstruction.com">info@heraaconstruction.com</a>
+            <span>العنوان</span>
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=30.00908875035226,31.282815705291846"
+              target="_blank"
+            >
+            قطعة رقم 2058، المنطقة الأولى، الهضبة الوسطى، المقطم، القاهرة، مصر
+            </a>
+          </div>
+  
+          <div class="footer_special">
+            <span>روابط</span>
+            <div class="footer_child2">
+              <div class="footer_child3">
+                <a href="./index-ar.html">الرئيسة</a>
+                <a href="./index-ar.html#about">من نحن</a>
+                <a href="./index-ar.html#contact-us">تواصل معانا</a>
+                <a href="./index-ar.html#Services">خدماتنا</a>
+              </div>
+              <div class="footer_child3">
+                <a href="./index-ar.html#clients">عملائنا</a>
+                <a href="./projects-index -ar.html">المشاريع</a>
+                <a href="./carrers-ar.html">الوظائف</a>
+                <a href="./index-ar.html#press">الصحافة و الأعلام</a>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="footer2">
+          <span>روابط</span>
+          <a href="./index-ar.html">الرئيسة</a>
+          <a href="./index-ar.html#about">من نحن</a>
+          <a href="./index-ar.html#contact-us">تواصل معانا</a>
+          <a href="./index-ar.html#Services">خدماتنا</a>
+          <a href="./index-ar.html#clients">عملائنا</a>
+          <a href="./projects-index -ar.html">المشاريع</a>
+          <a href="./carrers-ar.html">الوظائف</a>
+          <a href="./index-ar.html#press">الصحافة و الاعلام</a>
+        </div>
+      </footer>
+      <div class="overlay" id="overlay"></div>
+<script src="./script.js"></script>   
+</body>
+</html>
