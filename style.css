@@ -2629,7 +2629,9 @@ textarea {
   .projects-text {
     font-size: 2rem;
     top: 54%;
-    left: 12%;
+    left: 12%; 
+    display: block !important;
+
   }
 
   .project-container {
