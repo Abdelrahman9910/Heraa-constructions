@@ -384,7 +384,7 @@ li .dropdown-toggle {
   flex-wrap: wrap;
   justify-content: center;
   gap: 5%;
-  align-items: center;
+  align-items: stretch;
   width: 100%;
   margin: 6rem 0rem 6rem 0rem;
   height: auto;
@@ -395,14 +395,19 @@ li .dropdown-toggle {
   height: auto;
 }
 .pillars_box {
-  width: 19%;
-  height: 23rem;
+  width: 25%;
+  height: auto;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 2px solid #ca4545;
+  border: 2px solid #A8A8A8;
   border-radius: 10px;
+  transition: transform 0.8s ease;
+}
+.goals-box {
+  justify-content: space-between;
 }
 .pillars_box:hover {
   transform: translateY(-30px);
@@ -416,11 +421,11 @@ li .dropdown-toggle {
   height: 5rem;
   border: 8px solid rgb(255, 255, 255);
   border-radius: 50%;
-  background-color: black;
+  background-color: #A8A8A8;
   box-shadow: 0px 0px 8px 0px black;
 }
 .diffrent {
-  border: 2px solid #ca4545;
+  border: 2px solid #A8A8A8;
 }
 .addres-nonvisible {
   display: none !important ;
@@ -429,7 +434,7 @@ li .dropdown-toggle {
   box-shadow: 0px 3px 7px 0px #000000;
 }
 .diffrent_child {
-  background-color: #ca4545;
+  background-color: #A8A8A8;
   justify-content: center;
   display: flex;
   width: 5rem;
@@ -460,9 +465,8 @@ li .dropdown-toggle {
 .pillars2 {
   display: flex;
   justify-content: left;
-  align-items: center;
+  align-items: flex-start;
   gap: 10px;
-  padding-left: 3rem;
   padding-top: 1rem;
   font-size: 1rem;
   font-weight: 500;
@@ -471,12 +475,14 @@ li .dropdown-toggle {
 .pillars2 span {
   font-size: 18px;
   font-weight: 500;
+  width: fit-content;
 }
 .checkmark {
-  background-color: #ca4545;
-  width: 1rem;
+  background-color: #3d3d3d;
+  width: 20px !important;
+  height: 20px !important;
   font-weight: 500;
-  margin-top: 4px;
+  margin-top: 6px;
   height: 1rem;
   border: 0px solid transparent;
   border-radius: 50%;
@@ -520,7 +526,7 @@ li .dropdown-toggle {
   content: ".";
   padding-right: 9px;
   font-size: 2rem;
-  color: #ca4545;
+  color: #A8A8A8;
 }
 
 .special_city {
@@ -668,7 +674,7 @@ li .dropdown-toggle {
   height: 10px;
   border-radius: 50%;
   border: none;
-  background-color: #ca4545;
+  background-color: #a8a8a8;
   cursor: pointer;
 }
 .custom-carousel-slide img {
@@ -679,7 +685,7 @@ li .dropdown-toggle {
   object-fit: contain;
 }
 .custom-carousel-indicators button.active {
-  background-color: #ca454570;
+  background-color: #626262;
 }
 
 .custom-carousel-controls {
@@ -771,13 +777,13 @@ figure {
 .press-indicator {
   width: 10px;
   height: 10px;
-  background: #ca4545;
+  background: #a8a8a8;
   border-radius: 50%;
   margin: 5px;
   cursor: pointer;
 }
 .press-indicator.active {
-  background: #ca45458d;
+  background: #626262;
 }
 .press-buttons {
   position: absolute;
@@ -1156,6 +1162,9 @@ footer img {
   flex-direction: row-reverse;
   padding: 1rem 1rem 0rem 0rem;
 }
+.pillars2-ar span{
+  text-align: end;
+}
 .special_city_ar {
   width: 10rem;
   text-align: end;
@@ -1186,7 +1195,7 @@ footer img {
   content: ".";
   padding-right: 9px;
   font-size: 2rem;
-  color: #ca4545;
+  color: #a8a8a8;
 }
 .content_child span:nth-child(1) {
   padding-bottom: 2.2rem;
@@ -1505,47 +1514,6 @@ footer img {
 .project-lang_li-ar img {
   margin: 0px 6px 0px -9px !important;
 }
-.project-indicators {
-  position: absolute;
-  bottom: 4px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-}
-.project-indicator {
-  width: 10px;
-  height: 10px;
-  background-color: #ca4545;
-  border-radius: 50%;
-  margin: 0 5px;
-  cursor: pointer;
-}
-.project-indicator.active {
-  background-color: #ca4545a6;
-}
-.project-prev,
-.project-next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #de3737;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  border-radius: 50%;
-  font-size: 18px;
-}
-.project-prev {
-  left: 10px;
-}
-.project-next {
-  right: 10px;
-}
-.project-prev:hover,
-.project-next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
 .footer-arabic {
   direction: rtl !important;
   text-align: right !important;
@@ -1614,6 +1582,7 @@ footer img {
 }
 .projects-text-ar {
   left: 74%;
+  display: none;
 }
 .project1-details {
   text-align: center;
@@ -1961,7 +1930,7 @@ footer img {
 .carrer-header {
   background-image: url(./images/projeccts1.webp);
   height: 58vh;
-  background-position: center;
+  background-position: 0px -280px;
   background-size: cover;
 }
 .form-sec {
@@ -2179,7 +2148,7 @@ textarea {
     cursor: pointer;
     color: black !important;
   }
-  .language-button:visited{
+  .language-button:visited {
     color: black !important;
   }
   .arrow {
@@ -2221,7 +2190,7 @@ textarea {
   #pillars {
     margin-top: 50px;
     width: 100%;
-    height: 144vh;
+    height: auto;
   }
   .dropdown-content a {
     color: black;
@@ -2476,13 +2445,14 @@ textarea {
     background-repeat: no-repeat;
   }
   .pillars_container {
-    margin: 0rem 0rem 58rem 0rem;
+    margin: 0rem 0rem 4rem 0rem;
     gap: 5rem;
     padding-top: 2rem;
+    height: auto;
   }
   .pillars_box {
-    width: 17rem;
-    height: 21rem;
+    width: 85%;
+    height: auto;
   }
   .pillars_child {
     width: 4rem;
@@ -2499,9 +2469,13 @@ textarea {
     margin-top: 1rem;
   }
   .pillars2 {
-    padding-left: 2rem;
     padding-top: 1rem;
     font-size: 0.75rem;
+  }
+  .checkmark {
+    background-color: #3d3d3d;
+    width: 15px !important;
+    height: 15px !important;
   }
   .sec_services {
     width: fit-content;
@@ -2629,9 +2603,8 @@ textarea {
   .projects-text {
     font-size: 2rem;
     top: 54%;
-    left: 12%; 
+    left: 12%;
     display: block !important;
-
   }
 
   .project-container {
@@ -2724,7 +2697,7 @@ textarea {
   }
   .project-slider {
     height: 20vh;
-}
+  }
   .project-slide {
     min-width: 100%;
     gap: 1rem;
@@ -3056,6 +3029,7 @@ textarea {
   }
   .projects-text-ar {
     left: 51% !important;
+    display: none !important;
   }
 }
 @media (min-width: 501px) and (max-width: 769px) {
@@ -3272,7 +3246,7 @@ textarea {
     margin-top: -10px;
   }
   .breif div:nth-child(2) {
-    width: 44%;
+    width: 47%;
     font-size: 18px;
   }
   .circle {
@@ -3509,6 +3483,53 @@ textarea {
   .child-ar.shrink {
     transform: translateX(82%);
   }
+  .slide1-img1,
+  .slide1-img2,
+  .slide1-img3,
+  .slide1-img4,
+  .slide2-img1,
+  .slide2-img2,
+  .slide2-img3,
+  .slide2-img4,
+  .slide3-img1,
+  .slide3-img2,
+  .slide3-img3,
+  .slide3-img4,
+  .slide4-img1,
+  .slide4-img2,
+  .slide4-img3,
+  .slide4-img4,
+  .slide5-img1,
+  .slide5-img2,
+  .slide5-img3,
+  .slide5-img4,
+  .slide6-img1,
+  .slide6-img2,
+  .slide6-img3,
+  .slide6-img4,
+  .slide7-img1,
+  .slide7-img2,
+  .slide7-img3,
+  .slide7-img4,
+  .slide8-img1,
+  .slide8-img2 {
+    width: 10rem;
+    height: 10rem;
+  }
+  .custom-carousel-controls {
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 89%;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  .custom-carousel-container {
+    height: 29vh;
+  }
 }
 @media (min-width: 1440px) and (max-width: 1750px) {
   .side_navbar,
@@ -3524,7 +3545,7 @@ textarea {
   .new-empty1-child2 {
     width: 99%;
     height: 3.9px;
-    background-color: #ca4545;
+    background-color: #3d3d3d;
   }
   .sec-head-text {
     font-size: 2.25rem;
@@ -3635,6 +3656,7 @@ textarea {
   }
   .projects-text-ar {
     left: 74%;
+    display: none;
   }
   .project-slide img {
     height: 12rem;
