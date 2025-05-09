@@ -2871,11 +2871,12 @@ textarea {
     font-size: 10px;
   }
   .qualifications_ul {
-    width: 8rem;
+    width: 93%;
     font-size: 10px;
   }
   .form-sec {
     background-size: cover;
+    margin: 2rem auto;
   }
   .pop_ul li:nth-child(1) {
     font-size: 0.75rem;
@@ -2888,7 +2889,11 @@ textarea {
   }
   .pop_ul li:nth-child(3) {
     font-size: 10px;
-    margin-bottom: 1rem;
+    margin: 0.5rem 0rem;
+  }
+  .pop_ul li:nth-child(5) {
+    font-size: 10px;
+    margin: 0.5rem 0rem;
   }
   .pop_child4 {
     font-size: 10px;
@@ -2899,7 +2904,7 @@ textarea {
   .pop_child6 {
     padding: 0.25rem 0rem;
     width: 4.8rem;
-    margin-top: 0.75rem;
+    margin: 0.75rem auto 0rem;
   }
   .file-upload-wrapper .file-name {
     font-size: 8px;
