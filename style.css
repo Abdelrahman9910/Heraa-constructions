@@ -797,7 +797,7 @@ figure {
 }
 .press-button {
   background: transparent;
-  color: #ca4545;
+  color: #3d3d3d;
   border: none;
   cursor: pointer;
   font-size: 24px;
@@ -2284,9 +2284,6 @@ textarea {
   .footer1 a {
     padding-bottom: 0.25rem;
   }
-  .footer2 {
-    display: none;
-  }
   .footer1 span {
     padding: 0.4rem 0rem 0.1rem 0rem;
   }
@@ -2316,6 +2313,9 @@ textarea {
   .footer_child3 a {
     color: #ffffffa1;
     text-decoration: none;
+  }
+  .footer1{
+    gap: 6px;
   }
   .sec_head1 {
     font-size: 18px;
@@ -2347,53 +2347,9 @@ textarea {
     width: 4rem;
     height: 2px;
   }
-  .empty::before {
-    content: "";
-    width: 2.5rem;
-    display: inline-block;
-    border: 1px solid #ca4545;
-    height: 0px;
-    top: -1.3rem;
-    left: 37%;
-    position: relative;
-    background-color: #ca4552;
-  }
-  .empty::after {
-    content: "";
-    width: 2.5rem;
-    border: 1px solid #ca4545;
-    height: 0px;
-    top: -2.2rem;
-    left: 1.5rem;
-    display: inline-block;
-    position: relative;
-    background-color: #ca4552;
-  }
   .empty1 {
     width: 4rem;
     height: 2px;
-  }
-  .empty1::before {
-    content: "";
-    width: 2.5rem;
-    border: 1px solid #ca4545;
-    height: 0px;
-    bottom: 1.3rem;
-    left: 0rem;
-    display: inline-block;
-    position: relative;
-    background-color: #ca4552;
-  }
-  .empty1::after {
-    content: "";
-    width: 2.5rem;
-    border: 1px solid #ca4545;
-    height: 0px;
-    bottom: 2.2rem;
-    left: 0rem;
-    display: inline-block;
-    position: relative;
-    background-color: #ca4552;
   }
   .breif {
     flex-direction: column-reverse;
