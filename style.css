@@ -1355,7 +1355,6 @@ footer img {
   flex: 1;
   max-width: fit-content;
   height: auto;
-  min-height: 35vh;
   gap: 6px;
   flex-direction: column;
 }
@@ -2558,7 +2557,7 @@ textarea {
     font-size: 2rem;
     top: 54%;
     left: 12%;
-    display: block !important;
+    display: inline-block !important;
   }
 
   .project-container {
@@ -2567,10 +2566,12 @@ textarea {
   }
   .project_content {
     flex-direction: column-reverse;
+    margin-top: 0rem;
   }
   .content_child {
     max-width: 100%;
-    padding: 0rem 0rem 0rem 1rem;
+    padding: 1rem 0rem 1rem 1rem;
+    height: auto !important;
   }
   .services_container {
     flex-wrap: wrap;
