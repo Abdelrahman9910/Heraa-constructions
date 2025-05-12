@@ -1574,7 +1574,8 @@ footer img {
 .projects-text {
   font-size: 3.5rem;
   font-weight: 800;
-  color: white;
+  color: black;
+  display: inline-block !important;
   position: relative;
   top: 64%;
   left: 12%;
