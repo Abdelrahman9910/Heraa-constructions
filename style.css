@@ -28,9 +28,10 @@ html {
   height: 75vh;
 }
 .slide2 {
-  background-image: url(./images/6.webp);
-  background-position: center;
+  background-image: url(./images/azhar-bg\ \(1\).webp);
+  background-position: bottom;
   background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
   color: white;
   text-align: center;
@@ -48,6 +49,18 @@ html {
   object-fit: contain;
   height: 75vh;
   background-position: 0px -159px;
+  overflow: hidden;
+}
+.slide4 {
+  background-image: url(./images/rateb-bg\ \(1\).webp);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  color: white;
+  text-align: center;
+  object-fit: contain;
+  height: 75vh;
+  /* background-position: 0px -159px; */
   overflow: hidden;
 }
 .logo {
